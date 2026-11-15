@@ -1,0 +1,2767 @@
+{
+  "pca_explained_variance_pct": 61.71,
+  "scaler_mean": [
+    92.33,
+    84.22,
+    76.94,
+    60.83,
+    59.28,
+    58.61,
+    36.17,
+    87.72
+  ],
+  "scaler_std": [
+    5.36,
+    5.24,
+    15.35,
+    25.34,
+    33.69,
+    35.04,
+    32.97,
+    2.92
+  ],
+  "pca_components": [
+    [
+      -0.2972,
+      0.3588,
+      0.3666,
+      0.4791,
+      0.2621,
+      0.3256,
+      -0.4452,
+      0.2147
+    ],
+    [
+      0.2263,
+      -0.3138,
+      -0.0889,
+      -0.0816,
+      0.5137,
+      0.5522,
+      -0.103,
+      -0.5064
+    ]
+  ],
+  "targets": [
+    {
+      "id": "shackleton_rim",
+      "name": "Shackleton Crater Rim (Artemis III South Pole)",
+      "body": "Moon",
+      "ml_cluster": "Archetype A: Fluvial-Sulfate & Lacustrine Biosignature Basins",
+      "pca_coords": [
+        1.23,
+        -3.1
+      ],
+      "rf_top_dimension": "topography_roughness",
+      "rf_feature_importances": {
+        "geology_mineralogy": 0.2176,
+        "topography_roughness": 0.2213,
+        "thermal_illumination": 0.1299,
+        "water_ice_isru": 0.0958,
+        "aeolian_dynamic_processes": 0.0902,
+        "astrobiology_extremophiles": 0.1323,
+        "subsurface_lava_tubes": 0.0311,
+        "operations_mobility": 0.0819
+      },
+      "gravity_compensation_350kg": {
+        "earth_weight_N": 3433.5,
+        "target_weight_N": 567.0,
+        "counterweight_offload_N": 2866.5,
+        "offload_percentage": 83.5
+      },
+      "bekker_terramechanics_350kg": {
+        "z_earth_cm": 2.31,
+        "z_target_cm": 0.42,
+        "slip_risk": "LOW (Optimal Regolith Traction)"
+      },
+      "solar_attenuation": {
+        "target_flux_wm2": 150.0,
+        "earth_flux_wm2": 1040.0,
+        "attenuation_pct": 85.6,
+        "compensation": "Apply 85.6% Neutral-Density Optical Filter on Rover PV Array"
+      },
+      "ranked_earth_sites": [
+        {
+          "rank": 1,
+          "id": "rogaland_norway",
+          "name": "Rogaland Anorthosite Massif (Block B2)",
+          "region": "Egersund Basin, Southern Norway",
+          "rbf_ml_score": 64.5,
+          "hybrid_score": 88.2,
+          "sar_match_pct": 97.3,
+          "pca_coords": [
+            -1.31,
+            -1.28
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "MAY \u2013 SEP (NORDIC SNOW-FREE WINDOW)",
+          "seasonal_fidelity": [
+            48,
+            50,
+            58,
+            74,
+            91,
+            96,
+            98,
+            95,
+            89,
+            72,
+            55,
+            49
+          ]
+        },
+        {
+          "rank": 2,
+          "id": "lonar_rim_ne",
+          "name": "Lonar Crater NE Basaltic Ejecta Rim (Sector 1)",
+          "region": "Deccan Traps, Maharashtra, India",
+          "rbf_ml_score": 39.4,
+          "hybrid_score": 76.0,
+          "sar_match_pct": 97.3,
+          "pca_coords": [
+            -1.13,
+            -1.54
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "JAN \u2013 APR (PEAK DRY PRE-MONSOON)",
+          "seasonal_fidelity": [
+            95,
+            97,
+            96,
+            93,
+            86,
+            62,
+            51,
+            54,
+            68,
+            82,
+            90,
+            94
+          ]
+        },
+        {
+          "rank": 3,
+          "id": "svalbard_spitsbergen",
+          "name": "Svalbard Bokfjorden & Sverrefjell Volcanic Complex",
+          "region": "Spitsbergen, Svalbard Archipelago, Norway",
+          "rbf_ml_score": 39.2,
+          "hybrid_score": 77.1,
+          "sar_match_pct": 61.3,
+          "pca_coords": [
+            1.57,
+            0.64
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 AUG (ARCTIC EXPEDITION WINDOW)",
+          "seasonal_fidelity": [
+            55,
+            58,
+            65,
+            74,
+            85,
+            94,
+            98,
+            97,
+            80,
+            68,
+            58,
+            52
+          ]
+        },
+        {
+          "rank": 4,
+          "id": "haughton_devon_canada",
+          "name": "Haughton Crater & Periglacial Polygon Basin",
+          "region": "Devon Island, Nunavut, Canada",
+          "rbf_ml_score": 35.9,
+          "hybrid_score": 75.4,
+          "sar_match_pct": 42.7,
+          "pca_coords": [
+            2.76,
+            -0.4
+          ],
+          "ml_cluster": "Archetype A: Fluvial-Sulfate & Lacustrine Biosignature Basins",
+          "uncharted_gem": true,
+          "optimal_window": "JUN \u2013 AUG (ARCTIC CONTINUOUS DAYLIGHT)",
+          "seasonal_fidelity": [
+            62,
+            64,
+            70,
+            78,
+            88,
+            96,
+            98,
+            95,
+            84,
+            72,
+            65,
+            60
+          ]
+        },
+        {
+          "rank": 5,
+          "id": "iceland_askja",
+          "name": "Askja Caldera & Holuhraun Lava Fields",
+          "region": "Central Highlands, Iceland",
+          "rbf_ml_score": 27.1,
+          "hybrid_score": 68.7,
+          "sar_match_pct": 80.0,
+          "pca_coords": [
+            -1.02,
+            0.16
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 SEP (HIGHLAND ROAD ACCESS)",
+          "seasonal_fidelity": [
+            42,
+            45,
+            52,
+            60,
+            72,
+            88,
+            97,
+            98,
+            86,
+            64,
+            48,
+            40
+          ]
+        },
+        {
+          "rank": 6,
+          "id": "dallol_ethiopia",
+          "name": "Dallol Hydrothermal Evaporite Delta (Sector 2)",
+          "region": "Danakil Depression, Afar, Ethiopia",
+          "rbf_ml_score": 25.1,
+          "hybrid_score": 67.6,
+          "sar_match_pct": 66.7,
+          "pca_coords": [
+            -0.01,
+            2.29
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 FEB (WINTER THERMAL OPERATING WINDOW)",
+          "seasonal_fidelity": [
+            96,
+            94,
+            86,
+            75,
+            64,
+            55,
+            52,
+            56,
+            68,
+            82,
+            93,
+            97
+          ]
+        },
+        {
+          "rank": 7,
+          "id": "umm_jirsan_saudi",
+          "name": "Harrat Khaybar \u2014 Umm Jirsan Skylight Lava Tube",
+          "region": "Medina Volcanic Field, Saudi Arabia",
+          "rbf_ml_score": 24.9,
+          "hybrid_score": 67.1,
+          "sar_match_pct": 54.7,
+          "pca_coords": [
+            -2.06,
+            0.31
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 MAR (SURFACE-TO-CAVE DEPLOYMENT)",
+          "seasonal_fidelity": [
+            97,
+            96,
+            92,
+            84,
+            74,
+            68,
+            65,
+            67,
+            76,
+            88,
+            95,
+            98
+          ]
+        },
+        {
+          "rank": 8,
+          "id": "qaidam_china",
+          "name": "Qaidam Basin Sulfate Yardangs & Aeolian Field",
+          "region": "Qinghai Plateau, Northwestern China",
+          "rbf_ml_score": 24.7,
+          "hybrid_score": 67.7,
+          "sar_match_pct": 69.3,
+          "pca_coords": [
+            0.71,
+            1.45
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "SEP \u2013 NOV (HIGH-CLARITY AEOLIAN WINDOW)",
+          "seasonal_fidelity": [
+            78,
+            80,
+            84,
+            88,
+            91,
+            86,
+            82,
+            89,
+            96,
+            98,
+            93,
+            82
+          ]
+        },
+        {
+          "rank": 9,
+          "id": "hawaii_mauna_loa",
+          "name": "Mauna Loa HI-SEAS Lunar/Mars Habitat & Volcanic Ridge",
+          "region": "Hawaii Volcanic Saddle, Hawaii, USA",
+          "rbf_ml_score": 21.1,
+          "hybrid_score": 63.9,
+          "sar_match_pct": 86.0,
+          "pca_coords": [
+            -1.88,
+            -0.06
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": false,
+          "optimal_window": "MAY \u2013 OCT (DRY PACIFIC TRADES)",
+          "seasonal_fidelity": [
+            84,
+            85,
+            87,
+            90,
+            95,
+            97,
+            98,
+            96,
+            95,
+            92,
+            88,
+            85
+          ]
+        },
+        {
+          "rank": 10,
+          "id": "atacama_yungay",
+          "name": "Atacama Yungay Hyper-Arid Core (Control Benchmark)",
+          "region": "Antofagasta, Northern Chile",
+          "rbf_ml_score": 19.4,
+          "hybrid_score": 63.3,
+          "sar_match_pct": 58.0,
+          "pca_coords": [
+            1.31,
+            0.8
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": false,
+          "optimal_window": "OCT \u2013 MAR (AUSTRAL SUMMER UV PEAK)",
+          "seasonal_fidelity": [
+            96,
+            95,
+            94,
+            89,
+            84,
+            80,
+            81,
+            85,
+            90,
+            95,
+            97,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marius_hills_pit",
+      "name": "Marius Hills Skylight Pit (Lunar Mare Lava Tube)",
+      "body": "Moon",
+      "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+      "pca_coords": [
+        -3.13,
+        -0.65
+      ],
+      "rf_top_dimension": "water_ice_isru",
+      "rf_feature_importances": {
+        "geology_mineralogy": 0.023,
+        "topography_roughness": 0.0111,
+        "thermal_illumination": 0.1547,
+        "water_ice_isru": 0.2604,
+        "aeolian_dynamic_processes": 0.0442,
+        "astrobiology_extremophiles": 0.2589,
+        "subsurface_lava_tubes": 0.1778,
+        "operations_mobility": 0.0699
+      },
+      "gravity_compensation_350kg": {
+        "earth_weight_N": 3433.5,
+        "target_weight_N": 567.0,
+        "counterweight_offload_N": 2866.5,
+        "offload_percentage": 83.5
+      },
+      "bekker_terramechanics_350kg": {
+        "z_earth_cm": 1.85,
+        "z_target_cm": 0.38,
+        "slip_risk": "LOW (Optimal Regolith Traction)"
+      },
+      "solar_attenuation": {
+        "target_flux_wm2": 0.0,
+        "earth_flux_wm2": 1050.0,
+        "attenuation_pct": 100.0,
+        "compensation": "100% Dark Shroud (Zero Natural Sunlight in Lava Tube Cave)"
+      },
+      "ranked_earth_sites": [
+        {
+          "rank": 1,
+          "id": "umm_jirsan_saudi",
+          "name": "Harrat Khaybar \u2014 Umm Jirsan Skylight Lava Tube",
+          "region": "Medina Volcanic Field, Saudi Arabia",
+          "rbf_ml_score": 68.5,
+          "hybrid_score": 89.5,
+          "sar_match_pct": 96.0,
+          "pca_coords": [
+            -2.06,
+            0.31
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 MAR (SURFACE-TO-CAVE DEPLOYMENT)",
+          "seasonal_fidelity": [
+            97,
+            96,
+            92,
+            84,
+            74,
+            68,
+            65,
+            67,
+            76,
+            88,
+            95,
+            98
+          ]
+        },
+        {
+          "rank": 2,
+          "id": "hawaii_mauna_loa",
+          "name": "Mauna Loa HI-SEAS Lunar/Mars Habitat & Volcanic Ridge",
+          "region": "Hawaii Volcanic Saddle, Hawaii, USA",
+          "rbf_ml_score": 66.3,
+          "hybrid_score": 86.8,
+          "sar_match_pct": 64.7,
+          "pca_coords": [
+            -1.88,
+            -0.06
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": false,
+          "optimal_window": "MAY \u2013 OCT (DRY PACIFIC TRADES)",
+          "seasonal_fidelity": [
+            84,
+            85,
+            87,
+            90,
+            95,
+            97,
+            98,
+            96,
+            95,
+            92,
+            88,
+            85
+          ]
+        },
+        {
+          "rank": 3,
+          "id": "lonar_rim_ne",
+          "name": "Lonar Crater NE Basaltic Ejecta Rim (Sector 1)",
+          "region": "Deccan Traps, Maharashtra, India",
+          "rbf_ml_score": 52.7,
+          "hybrid_score": 82.0,
+          "sar_match_pct": 48.0,
+          "pca_coords": [
+            -1.13,
+            -1.54
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "JAN \u2013 APR (PEAK DRY PRE-MONSOON)",
+          "seasonal_fidelity": [
+            95,
+            97,
+            96,
+            93,
+            86,
+            62,
+            51,
+            54,
+            68,
+            82,
+            90,
+            94
+          ]
+        },
+        {
+          "rank": 4,
+          "id": "iceland_askja",
+          "name": "Askja Caldera & Holuhraun Lava Fields",
+          "region": "Central Highlands, Iceland",
+          "rbf_ml_score": 47.2,
+          "hybrid_score": 80.2,
+          "sar_match_pct": 70.7,
+          "pca_coords": [
+            -1.02,
+            0.16
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 SEP (HIGHLAND ROAD ACCESS)",
+          "seasonal_fidelity": [
+            42,
+            45,
+            52,
+            60,
+            72,
+            88,
+            97,
+            98,
+            86,
+            64,
+            48,
+            40
+          ]
+        },
+        {
+          "rank": 5,
+          "id": "rogaland_norway",
+          "name": "Rogaland Anorthosite Massif (Block B2)",
+          "region": "Egersund Basin, Southern Norway",
+          "rbf_ml_score": 46.3,
+          "hybrid_score": 78.8,
+          "sar_match_pct": 53.3,
+          "pca_coords": [
+            -1.31,
+            -1.28
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "MAY \u2013 SEP (NORDIC SNOW-FREE WINDOW)",
+          "seasonal_fidelity": [
+            48,
+            50,
+            58,
+            74,
+            91,
+            96,
+            98,
+            95,
+            89,
+            72,
+            55,
+            49
+          ]
+        },
+        {
+          "rank": 6,
+          "id": "svalbard_spitsbergen",
+          "name": "Svalbard Bokfjorden & Sverrefjell Volcanic Complex",
+          "region": "Spitsbergen, Svalbard Archipelago, Norway",
+          "rbf_ml_score": 17.3,
+          "hybrid_score": 61.7,
+          "sar_match_pct": 89.3,
+          "pca_coords": [
+            1.57,
+            0.64
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 AUG (ARCTIC EXPEDITION WINDOW)",
+          "seasonal_fidelity": [
+            55,
+            58,
+            65,
+            74,
+            85,
+            94,
+            98,
+            97,
+            80,
+            68,
+            58,
+            52
+          ]
+        },
+        {
+          "rank": 7,
+          "id": "dallol_ethiopia",
+          "name": "Dallol Hydrothermal Evaporite Delta (Sector 2)",
+          "region": "Danakil Depression, Afar, Ethiopia",
+          "rbf_ml_score": 14.8,
+          "hybrid_score": 57.8,
+          "sar_match_pct": 84.0,
+          "pca_coords": [
+            -0.01,
+            2.29
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 FEB (WINTER THERMAL OPERATING WINDOW)",
+          "seasonal_fidelity": [
+            96,
+            94,
+            86,
+            75,
+            64,
+            55,
+            52,
+            56,
+            68,
+            82,
+            93,
+            97
+          ]
+        },
+        {
+          "rank": 8,
+          "id": "qaidam_china",
+          "name": "Qaidam Basin Sulfate Yardangs & Aeolian Field",
+          "region": "Qinghai Plateau, Northwestern China",
+          "rbf_ml_score": 14.0,
+          "hybrid_score": 57.6,
+          "sar_match_pct": 81.3,
+          "pca_coords": [
+            0.71,
+            1.45
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "SEP \u2013 NOV (HIGH-CLARITY AEOLIAN WINDOW)",
+          "seasonal_fidelity": [
+            78,
+            80,
+            84,
+            88,
+            91,
+            86,
+            82,
+            89,
+            96,
+            98,
+            93,
+            82
+          ]
+        },
+        {
+          "rank": 9,
+          "id": "haughton_devon_canada",
+          "name": "Haughton Crater & Periglacial Polygon Basin",
+          "region": "Devon Island, Nunavut, Canada",
+          "rbf_ml_score": 13.3,
+          "hybrid_score": 57.5,
+          "sar_match_pct": 92.0,
+          "pca_coords": [
+            2.76,
+            -0.4
+          ],
+          "ml_cluster": "Archetype A: Fluvial-Sulfate & Lacustrine Biosignature Basins",
+          "uncharted_gem": true,
+          "optimal_window": "JUN \u2013 AUG (ARCTIC CONTINUOUS DAYLIGHT)",
+          "seasonal_fidelity": [
+            62,
+            64,
+            70,
+            78,
+            88,
+            96,
+            98,
+            95,
+            84,
+            72,
+            65,
+            60
+          ]
+        },
+        {
+          "rank": 10,
+          "id": "atacama_yungay",
+          "name": "Atacama Yungay Hyper-Arid Core (Control Benchmark)",
+          "region": "Antofagasta, Northern Chile",
+          "rbf_ml_score": 9.4,
+          "hybrid_score": 53.4,
+          "sar_match_pct": 92.7,
+          "pca_coords": [
+            1.31,
+            0.8
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": false,
+          "optimal_window": "OCT \u2013 MAR (AUSTRAL SUMMER UV PEAK)",
+          "seasonal_fidelity": [
+            96,
+            95,
+            94,
+            89,
+            84,
+            80,
+            81,
+            85,
+            90,
+            95,
+            97,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malapert_mountain",
+      "name": "Malapert Mountain (Peak of Eternal Light & Artemis Relay)",
+      "body": "Moon",
+      "ml_cluster": "Archetype A: Fluvial-Sulfate & Lacustrine Biosignature Basins",
+      "pca_coords": [
+        0.79,
+        -2.3
+      ],
+      "rf_top_dimension": "geology_mineralogy",
+      "rf_feature_importances": {
+        "geology_mineralogy": 0.206,
+        "topography_roughness": 0.134,
+        "thermal_illumination": 0.1859,
+        "water_ice_isru": 0.0543,
+        "aeolian_dynamic_processes": 0.0694,
+        "astrobiology_extremophiles": 0.1935,
+        "subsurface_lava_tubes": 0.0853,
+        "operations_mobility": 0.0715
+      },
+      "gravity_compensation_350kg": {
+        "earth_weight_N": 3433.5,
+        "target_weight_N": 567.0,
+        "counterweight_offload_N": 2866.5,
+        "offload_percentage": 83.5
+      },
+      "bekker_terramechanics_350kg": {
+        "z_earth_cm": 2.31,
+        "z_target_cm": 0.42,
+        "slip_risk": "LOW (Optimal Regolith Traction)"
+      },
+      "solar_attenuation": {
+        "target_flux_wm2": 1361.0,
+        "earth_flux_wm2": 1040.0,
+        "attenuation_pct": 0.0,
+        "compensation": "Apply 0.0% Neutral-Density Optical Filter on Rover PV Array"
+      },
+      "ranked_earth_sites": [
+        {
+          "rank": 1,
+          "id": "rogaland_norway",
+          "name": "Rogaland Anorthosite Massif (Block B2)",
+          "region": "Egersund Basin, Southern Norway",
+          "rbf_ml_score": 75.2,
+          "hybrid_score": 91.9,
+          "sar_match_pct": 90.7,
+          "pca_coords": [
+            -1.31,
+            -1.28
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "MAY \u2013 SEP (NORDIC SNOW-FREE WINDOW)",
+          "seasonal_fidelity": [
+            48,
+            50,
+            58,
+            74,
+            91,
+            96,
+            98,
+            95,
+            89,
+            72,
+            55,
+            49
+          ]
+        },
+        {
+          "rank": 2,
+          "id": "lonar_rim_ne",
+          "name": "Lonar Crater NE Basaltic Ejecta Rim (Sector 1)",
+          "region": "Deccan Traps, Maharashtra, India",
+          "rbf_ml_score": 49.2,
+          "hybrid_score": 80.6,
+          "sar_match_pct": 96.0,
+          "pca_coords": [
+            -1.13,
+            -1.54
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "JAN \u2013 APR (PEAK DRY PRE-MONSOON)",
+          "seasonal_fidelity": [
+            95,
+            97,
+            96,
+            93,
+            86,
+            62,
+            51,
+            54,
+            68,
+            82,
+            90,
+            94
+          ]
+        },
+        {
+          "rank": 3,
+          "id": "svalbard_spitsbergen",
+          "name": "Svalbard Bokfjorden & Sverrefjell Volcanic Complex",
+          "region": "Spitsbergen, Svalbard Archipelago, Norway",
+          "rbf_ml_score": 36.9,
+          "hybrid_score": 76.0,
+          "sar_match_pct": 54.7,
+          "pca_coords": [
+            1.57,
+            0.64
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 AUG (ARCTIC EXPEDITION WINDOW)",
+          "seasonal_fidelity": [
+            55,
+            58,
+            65,
+            74,
+            85,
+            94,
+            98,
+            97,
+            80,
+            68,
+            58,
+            52
+          ]
+        },
+        {
+          "rank": 4,
+          "id": "haughton_devon_canada",
+          "name": "Haughton Crater & Periglacial Polygon Basin",
+          "region": "Devon Island, Nunavut, Canada",
+          "rbf_ml_score": 33.9,
+          "hybrid_score": 74.2,
+          "sar_match_pct": 36.0,
+          "pca_coords": [
+            2.76,
+            -0.4
+          ],
+          "ml_cluster": "Archetype A: Fluvial-Sulfate & Lacustrine Biosignature Basins",
+          "uncharted_gem": true,
+          "optimal_window": "JUN \u2013 AUG (ARCTIC CONTINUOUS DAYLIGHT)",
+          "seasonal_fidelity": [
+            62,
+            64,
+            70,
+            78,
+            88,
+            96,
+            98,
+            95,
+            84,
+            72,
+            65,
+            60
+          ]
+        },
+        {
+          "rank": 5,
+          "id": "iceland_askja",
+          "name": "Askja Caldera & Holuhraun Lava Fields",
+          "region": "Central Highlands, Iceland",
+          "rbf_ml_score": 30.9,
+          "hybrid_score": 71.0,
+          "sar_match_pct": 73.3,
+          "pca_coords": [
+            -1.02,
+            0.16
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 SEP (HIGHLAND ROAD ACCESS)",
+          "seasonal_fidelity": [
+            42,
+            45,
+            52,
+            60,
+            72,
+            88,
+            97,
+            98,
+            86,
+            64,
+            48,
+            40
+          ]
+        },
+        {
+          "rank": 6,
+          "id": "umm_jirsan_saudi",
+          "name": "Harrat Khaybar \u2014 Umm Jirsan Skylight Lava Tube",
+          "region": "Medina Volcanic Field, Saudi Arabia",
+          "rbf_ml_score": 29.1,
+          "hybrid_score": 69.8,
+          "sar_match_pct": 48.0,
+          "pca_coords": [
+            -2.06,
+            0.31
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 MAR (SURFACE-TO-CAVE DEPLOYMENT)",
+          "seasonal_fidelity": [
+            97,
+            96,
+            92,
+            84,
+            74,
+            68,
+            65,
+            67,
+            76,
+            88,
+            95,
+            98
+          ]
+        },
+        {
+          "rank": 7,
+          "id": "qaidam_china",
+          "name": "Qaidam Basin Sulfate Yardangs & Aeolian Field",
+          "region": "Qinghai Plateau, Northwestern China",
+          "rbf_ml_score": 27.0,
+          "hybrid_score": 69.2,
+          "sar_match_pct": 62.7,
+          "pca_coords": [
+            0.71,
+            1.45
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "SEP \u2013 NOV (HIGH-CLARITY AEOLIAN WINDOW)",
+          "seasonal_fidelity": [
+            78,
+            80,
+            84,
+            88,
+            91,
+            86,
+            82,
+            89,
+            96,
+            98,
+            93,
+            82
+          ]
+        },
+        {
+          "rank": 8,
+          "id": "hawaii_mauna_loa",
+          "name": "Mauna Loa HI-SEAS Lunar/Mars Habitat & Volcanic Ridge",
+          "region": "Hawaii Volcanic Saddle, Hawaii, USA",
+          "rbf_ml_score": 27.0,
+          "hybrid_score": 67.7,
+          "sar_match_pct": 79.3,
+          "pca_coords": [
+            -1.88,
+            -0.06
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": false,
+          "optimal_window": "MAY \u2013 OCT (DRY PACIFIC TRADES)",
+          "seasonal_fidelity": [
+            84,
+            85,
+            87,
+            90,
+            95,
+            97,
+            98,
+            96,
+            95,
+            92,
+            88,
+            85
+          ]
+        },
+        {
+          "rank": 9,
+          "id": "dallol_ethiopia",
+          "name": "Dallol Hydrothermal Evaporite Delta (Sector 2)",
+          "region": "Danakil Depression, Afar, Ethiopia",
+          "rbf_ml_score": 26.9,
+          "hybrid_score": 68.7,
+          "sar_match_pct": 60.0,
+          "pca_coords": [
+            -0.01,
+            2.29
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 FEB (WINTER THERMAL OPERATING WINDOW)",
+          "seasonal_fidelity": [
+            96,
+            94,
+            86,
+            75,
+            64,
+            55,
+            52,
+            56,
+            68,
+            82,
+            93,
+            97
+          ]
+        },
+        {
+          "rank": 10,
+          "id": "atacama_yungay",
+          "name": "Atacama Yungay Hyper-Arid Core (Control Benchmark)",
+          "region": "Antofagasta, Northern Chile",
+          "rbf_ml_score": 21.9,
+          "hybrid_score": 64.9,
+          "sar_match_pct": 51.3,
+          "pca_coords": [
+            1.31,
+            0.8
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": false,
+          "optimal_window": "OCT \u2013 MAR (AUSTRAL SUMMER UV PEAK)",
+          "seasonal_fidelity": [
+            96,
+            95,
+            94,
+            89,
+            84,
+            80,
+            81,
+            85,
+            90,
+            95,
+            97,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aristarchus_plateau",
+      "name": "Aristarchus Pyroclastic Plateau (Volcanic Glass & ISRU)",
+      "body": "Moon",
+      "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+      "pca_coords": [
+        -1.86,
+        -0.51
+      ],
+      "rf_top_dimension": "astrobiology_extremophiles",
+      "rf_feature_importances": {
+        "geology_mineralogy": 0.0091,
+        "topography_roughness": 0.0241,
+        "thermal_illumination": 0.1626,
+        "water_ice_isru": 0.1933,
+        "aeolian_dynamic_processes": 0.0457,
+        "astrobiology_extremophiles": 0.3137,
+        "subsurface_lava_tubes": 0.1891,
+        "operations_mobility": 0.0624
+      },
+      "gravity_compensation_350kg": {
+        "earth_weight_N": 3433.5,
+        "target_weight_N": 567.0,
+        "counterweight_offload_N": 2866.5,
+        "offload_percentage": 83.5
+      },
+      "bekker_terramechanics_350kg": {
+        "z_earth_cm": 2.31,
+        "z_target_cm": 0.42,
+        "slip_risk": "LOW (Optimal Regolith Traction)"
+      },
+      "solar_attenuation": {
+        "target_flux_wm2": 1361.0,
+        "earth_flux_wm2": 1040.0,
+        "attenuation_pct": 0.0,
+        "compensation": "Apply 0.0% Neutral-Density Optical Filter on Rover PV Array"
+      },
+      "ranked_earth_sites": [
+        {
+          "rank": 1,
+          "id": "rogaland_norway",
+          "name": "Rogaland Anorthosite Massif (Block B2)",
+          "region": "Egersund Basin, Southern Norway",
+          "rbf_ml_score": 55.1,
+          "hybrid_score": 83.9,
+          "sar_match_pct": 65.3,
+          "pca_coords": [
+            -1.31,
+            -1.28
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "MAY \u2013 SEP (NORDIC SNOW-FREE WINDOW)",
+          "seasonal_fidelity": [
+            48,
+            50,
+            58,
+            74,
+            91,
+            96,
+            98,
+            95,
+            89,
+            72,
+            55,
+            49
+          ]
+        },
+        {
+          "rank": 2,
+          "id": "umm_jirsan_saudi",
+          "name": "Harrat Khaybar \u2014 Umm Jirsan Skylight Lava Tube",
+          "region": "Medina Volcanic Field, Saudi Arabia",
+          "rbf_ml_score": 51.1,
+          "hybrid_score": 82.2,
+          "sar_match_pct": 92.0,
+          "pca_coords": [
+            -2.06,
+            0.31
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 MAR (SURFACE-TO-CAVE DEPLOYMENT)",
+          "seasonal_fidelity": [
+            97,
+            96,
+            92,
+            84,
+            74,
+            68,
+            65,
+            67,
+            76,
+            88,
+            95,
+            98
+          ]
+        },
+        {
+          "rank": 3,
+          "id": "lonar_rim_ne",
+          "name": "Lonar Crater NE Basaltic Ejecta Rim (Sector 1)",
+          "region": "Deccan Traps, Maharashtra, India",
+          "rbf_ml_score": 46.1,
+          "hybrid_score": 79.4,
+          "sar_match_pct": 60.0,
+          "pca_coords": [
+            -1.13,
+            -1.54
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "JAN \u2013 APR (PEAK DRY PRE-MONSOON)",
+          "seasonal_fidelity": [
+            95,
+            97,
+            96,
+            93,
+            86,
+            62,
+            51,
+            54,
+            68,
+            82,
+            90,
+            94
+          ]
+        },
+        {
+          "rank": 4,
+          "id": "hawaii_mauna_loa",
+          "name": "Mauna Loa HI-SEAS Lunar/Mars Habitat & Volcanic Ridge",
+          "region": "Hawaii Volcanic Saddle, Hawaii, USA",
+          "rbf_ml_score": 44.8,
+          "hybrid_score": 77.7,
+          "sar_match_pct": 76.7,
+          "pca_coords": [
+            -1.88,
+            -0.06
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": false,
+          "optimal_window": "MAY \u2013 OCT (DRY PACIFIC TRADES)",
+          "seasonal_fidelity": [
+            84,
+            85,
+            87,
+            90,
+            95,
+            97,
+            98,
+            96,
+            95,
+            92,
+            88,
+            85
+          ]
+        },
+        {
+          "rank": 5,
+          "id": "iceland_askja",
+          "name": "Askja Caldera & Holuhraun Lava Fields",
+          "region": "Central Highlands, Iceland",
+          "rbf_ml_score": 43.7,
+          "hybrid_score": 78.6,
+          "sar_match_pct": 82.7,
+          "pca_coords": [
+            -1.02,
+            0.16
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 SEP (HIGHLAND ROAD ACCESS)",
+          "seasonal_fidelity": [
+            42,
+            45,
+            52,
+            60,
+            72,
+            88,
+            97,
+            98,
+            86,
+            64,
+            48,
+            40
+          ]
+        },
+        {
+          "rank": 6,
+          "id": "svalbard_spitsbergen",
+          "name": "Svalbard Bokfjorden & Sverrefjell Volcanic Complex",
+          "region": "Spitsbergen, Svalbard Archipelago, Norway",
+          "rbf_ml_score": 33.5,
+          "hybrid_score": 73.9,
+          "sar_match_pct": 98.7,
+          "pca_coords": [
+            1.57,
+            0.64
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 AUG (ARCTIC EXPEDITION WINDOW)",
+          "seasonal_fidelity": [
+            55,
+            58,
+            65,
+            74,
+            85,
+            94,
+            98,
+            97,
+            80,
+            68,
+            58,
+            52
+          ]
+        },
+        {
+          "rank": 7,
+          "id": "haughton_devon_canada",
+          "name": "Haughton Crater & Periglacial Polygon Basin",
+          "region": "Devon Island, Nunavut, Canada",
+          "rbf_ml_score": 27.4,
+          "hybrid_score": 70.0,
+          "sar_match_pct": 80.0,
+          "pca_coords": [
+            2.76,
+            -0.4
+          ],
+          "ml_cluster": "Archetype A: Fluvial-Sulfate & Lacustrine Biosignature Basins",
+          "uncharted_gem": true,
+          "optimal_window": "JUN \u2013 AUG (ARCTIC CONTINUOUS DAYLIGHT)",
+          "seasonal_fidelity": [
+            62,
+            64,
+            70,
+            78,
+            88,
+            96,
+            98,
+            95,
+            84,
+            72,
+            65,
+            60
+          ]
+        },
+        {
+          "rank": 8,
+          "id": "dallol_ethiopia",
+          "name": "Dallol Hydrothermal Evaporite Delta (Sector 2)",
+          "region": "Danakil Depression, Afar, Ethiopia",
+          "rbf_ml_score": 22.2,
+          "hybrid_score": 65.2,
+          "sar_match_pct": 96.0,
+          "pca_coords": [
+            -0.01,
+            2.29
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 FEB (WINTER THERMAL OPERATING WINDOW)",
+          "seasonal_fidelity": [
+            96,
+            94,
+            86,
+            75,
+            64,
+            55,
+            52,
+            56,
+            68,
+            82,
+            93,
+            97
+          ]
+        },
+        {
+          "rank": 9,
+          "id": "qaidam_china",
+          "name": "Qaidam Basin Sulfate Yardangs & Aeolian Field",
+          "region": "Qinghai Plateau, Northwestern China",
+          "rbf_ml_score": 21.1,
+          "hybrid_score": 64.8,
+          "sar_match_pct": 93.3,
+          "pca_coords": [
+            0.71,
+            1.45
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "SEP \u2013 NOV (HIGH-CLARITY AEOLIAN WINDOW)",
+          "seasonal_fidelity": [
+            78,
+            80,
+            84,
+            88,
+            91,
+            86,
+            82,
+            89,
+            96,
+            98,
+            93,
+            82
+          ]
+        },
+        {
+          "rank": 10,
+          "id": "atacama_yungay",
+          "name": "Atacama Yungay Hyper-Arid Core (Control Benchmark)",
+          "region": "Antofagasta, Northern Chile",
+          "rbf_ml_score": 15.6,
+          "hybrid_score": 60.1,
+          "sar_match_pct": 95.3,
+          "pca_coords": [
+            1.31,
+            0.8
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": false,
+          "optimal_window": "OCT \u2013 MAR (AUSTRAL SUMMER UV PEAK)",
+          "seasonal_fidelity": [
+            96,
+            95,
+            94,
+            89,
+            84,
+            80,
+            81,
+            85,
+            90,
+            95,
+            97,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jezero_delta",
+      "name": "Jezero Crater Western Delta & Floor",
+      "body": "Mars",
+      "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+      "pca_coords": [
+        0.4,
+        1.66
+      ],
+      "rf_top_dimension": "astrobiology_extremophiles",
+      "rf_feature_importances": {
+        "geology_mineralogy": 0.0063,
+        "topography_roughness": 0.0171,
+        "thermal_illumination": 0.1134,
+        "water_ice_isru": 0.3038,
+        "aeolian_dynamic_processes": 0.0927,
+        "astrobiology_extremophiles": 0.3482,
+        "subsurface_lava_tubes": 0.0966,
+        "operations_mobility": 0.022
+      },
+      "gravity_compensation_350kg": {
+        "earth_weight_N": 3433.5,
+        "target_weight_N": 1298.5,
+        "counterweight_offload_N": 2135.0,
+        "offload_percentage": 62.2
+      },
+      "bekker_terramechanics_350kg": {
+        "z_earth_cm": 2.19,
+        "z_target_cm": 0.78,
+        "slip_risk": "LOW (Optimal Regolith Traction)"
+      },
+      "solar_attenuation": {
+        "target_flux_wm2": 324.0,
+        "earth_flux_wm2": 1020.0,
+        "attenuation_pct": 68.2,
+        "compensation": "Apply 68.2% Neutral-Density Optical Filter on Rover PV Array"
+      },
+      "ranked_earth_sites": [
+        {
+          "rank": 1,
+          "id": "dallol_ethiopia",
+          "name": "Dallol Hydrothermal Evaporite Delta (Sector 2)",
+          "region": "Danakil Depression, Afar, Ethiopia",
+          "rbf_ml_score": 99.2,
+          "hybrid_score": 98.5,
+          "sar_match_pct": 98.0,
+          "pca_coords": [
+            -0.01,
+            2.29
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 FEB (WINTER THERMAL OPERATING WINDOW)",
+          "seasonal_fidelity": [
+            96,
+            94,
+            86,
+            75,
+            64,
+            55,
+            52,
+            56,
+            68,
+            82,
+            93,
+            97
+          ]
+        },
+        {
+          "rank": 2,
+          "id": "qaidam_china",
+          "name": "Qaidam Basin Sulfate Yardangs & Aeolian Field",
+          "region": "Qinghai Plateau, Northwestern China",
+          "rbf_ml_score": 98.8,
+          "hybrid_score": 98.5,
+          "sar_match_pct": 99.3,
+          "pca_coords": [
+            0.71,
+            1.45
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "SEP \u2013 NOV (HIGH-CLARITY AEOLIAN WINDOW)",
+          "seasonal_fidelity": [
+            78,
+            80,
+            84,
+            88,
+            91,
+            86,
+            82,
+            89,
+            96,
+            98,
+            93,
+            82
+          ]
+        },
+        {
+          "rank": 3,
+          "id": "atacama_yungay",
+          "name": "Atacama Yungay Hyper-Arid Core (Control Benchmark)",
+          "region": "Antofagasta, Northern Chile",
+          "rbf_ml_score": 93.8,
+          "hybrid_score": 96.0,
+          "sar_match_pct": 89.3,
+          "pca_coords": [
+            1.31,
+            0.8
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": false,
+          "optimal_window": "OCT \u2013 MAR (AUSTRAL SUMMER UV PEAK)",
+          "seasonal_fidelity": [
+            96,
+            95,
+            94,
+            89,
+            84,
+            80,
+            81,
+            85,
+            90,
+            95,
+            97,
+            96
+          ]
+        },
+        {
+          "rank": 4,
+          "id": "haughton_devon_canada",
+          "name": "Haughton Crater & Periglacial Polygon Basin",
+          "region": "Devon Island, Nunavut, Canada",
+          "rbf_ml_score": 86.2,
+          "hybrid_score": 95.9,
+          "sar_match_pct": 74.0,
+          "pca_coords": [
+            2.76,
+            -0.4
+          ],
+          "ml_cluster": "Archetype A: Fluvial-Sulfate & Lacustrine Biosignature Basins",
+          "uncharted_gem": true,
+          "optimal_window": "JUN \u2013 AUG (ARCTIC CONTINUOUS DAYLIGHT)",
+          "seasonal_fidelity": [
+            62,
+            64,
+            70,
+            78,
+            88,
+            96,
+            98,
+            95,
+            84,
+            72,
+            65,
+            60
+          ]
+        },
+        {
+          "rank": 5,
+          "id": "svalbard_spitsbergen",
+          "name": "Svalbard Bokfjorden & Sverrefjell Volcanic Complex",
+          "region": "Spitsbergen, Svalbard Archipelago, Norway",
+          "rbf_ml_score": 86.0,
+          "hybrid_score": 95.9,
+          "sar_match_pct": 92.7,
+          "pca_coords": [
+            1.57,
+            0.64
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 AUG (ARCTIC EXPEDITION WINDOW)",
+          "seasonal_fidelity": [
+            55,
+            58,
+            65,
+            74,
+            85,
+            94,
+            98,
+            97,
+            80,
+            68,
+            58,
+            52
+          ]
+        },
+        {
+          "rank": 6,
+          "id": "iceland_askja",
+          "name": "Askja Caldera & Holuhraun Lava Fields",
+          "region": "Central Highlands, Iceland",
+          "rbf_ml_score": 58.0,
+          "hybrid_score": 85.6,
+          "sar_match_pct": 88.7,
+          "pca_coords": [
+            -1.02,
+            0.16
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 SEP (HIGHLAND ROAD ACCESS)",
+          "seasonal_fidelity": [
+            42,
+            45,
+            52,
+            60,
+            72,
+            88,
+            97,
+            98,
+            86,
+            64,
+            48,
+            40
+          ]
+        },
+        {
+          "rank": 7,
+          "id": "lonar_rim_ne",
+          "name": "Lonar Crater NE Basaltic Ejecta Rim (Sector 1)",
+          "region": "Deccan Traps, Maharashtra, India",
+          "rbf_ml_score": 43.5,
+          "hybrid_score": 79.2,
+          "sar_match_pct": 66.0,
+          "pca_coords": [
+            -1.13,
+            -1.54
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "JAN \u2013 APR (PEAK DRY PRE-MONSOON)",
+          "seasonal_fidelity": [
+            95,
+            97,
+            96,
+            93,
+            86,
+            62,
+            51,
+            54,
+            68,
+            82,
+            90,
+            94
+          ]
+        },
+        {
+          "rank": 8,
+          "id": "rogaland_norway",
+          "name": "Rogaland Anorthosite Massif (Block B2)",
+          "region": "Egersund Basin, Southern Norway",
+          "rbf_ml_score": 36.8,
+          "hybrid_score": 75.6,
+          "sar_match_pct": 71.3,
+          "pca_coords": [
+            -1.31,
+            -1.28
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "MAY \u2013 SEP (NORDIC SNOW-FREE WINDOW)",
+          "seasonal_fidelity": [
+            48,
+            50,
+            58,
+            74,
+            91,
+            96,
+            98,
+            95,
+            89,
+            72,
+            55,
+            49
+          ]
+        },
+        {
+          "rank": 9,
+          "id": "umm_jirsan_saudi",
+          "name": "Harrat Khaybar \u2014 Umm Jirsan Skylight Lava Tube",
+          "region": "Medina Volcanic Field, Saudi Arabia",
+          "rbf_ml_score": 36.0,
+          "hybrid_score": 74.9,
+          "sar_match_pct": 86.0,
+          "pca_coords": [
+            -2.06,
+            0.31
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 MAR (SURFACE-TO-CAVE DEPLOYMENT)",
+          "seasonal_fidelity": [
+            97,
+            96,
+            92,
+            84,
+            74,
+            68,
+            65,
+            67,
+            76,
+            88,
+            95,
+            98
+          ]
+        },
+        {
+          "rank": 10,
+          "id": "hawaii_mauna_loa",
+          "name": "Mauna Loa HI-SEAS Lunar/Mars Habitat & Volcanic Ridge",
+          "region": "Hawaii Volcanic Saddle, Hawaii, USA",
+          "rbf_ml_score": 32.2,
+          "hybrid_score": 71.8,
+          "sar_match_pct": 82.7,
+          "pca_coords": [
+            -1.88,
+            -0.06
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": false,
+          "optimal_window": "MAY \u2013 OCT (DRY PACIFIC TRADES)",
+          "seasonal_fidelity": [
+            84,
+            85,
+            87,
+            90,
+            95,
+            97,
+            98,
+            96,
+            95,
+            92,
+            88,
+            85
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arcadia_planitia",
+      "name": "Arcadia Planitia (Human Mars Landing Candidate)",
+      "body": "Mars",
+      "ml_cluster": "Archetype A: Fluvial-Sulfate & Lacustrine Biosignature Basins",
+      "pca_coords": [
+        3.07,
+        -1.21
+      ],
+      "rf_top_dimension": "astrobiology_extremophiles",
+      "rf_feature_importances": {
+        "geology_mineralogy": 0.0004,
+        "topography_roughness": 0.0208,
+        "thermal_illumination": 0.115,
+        "water_ice_isru": 0.2828,
+        "aeolian_dynamic_processes": 0.0833,
+        "astrobiology_extremophiles": 0.3443,
+        "subsurface_lava_tubes": 0.0965,
+        "operations_mobility": 0.0569
+      },
+      "gravity_compensation_350kg": {
+        "earth_weight_N": 3433.5,
+        "target_weight_N": 1298.5,
+        "counterweight_offload_N": 2135.0,
+        "offload_percentage": 62.2
+      },
+      "bekker_terramechanics_350kg": {
+        "z_earth_cm": 1.92,
+        "z_target_cm": 0.85,
+        "slip_risk": "LOW (Optimal Regolith Traction)"
+      },
+      "solar_attenuation": {
+        "target_flux_wm2": 342.0,
+        "earth_flux_wm2": 980.0,
+        "attenuation_pct": 65.1,
+        "compensation": "Apply 65.1% Neutral-Density Optical Filter on Rover PV Array"
+      },
+      "ranked_earth_sites": [
+        {
+          "rank": 1,
+          "id": "haughton_devon_canada",
+          "name": "Haughton Crater & Periglacial Polygon Basin",
+          "region": "Devon Island, Nunavut, Canada",
+          "rbf_ml_score": 97.6,
+          "hybrid_score": 98.5,
+          "sar_match_pct": 93.3,
+          "pca_coords": [
+            2.76,
+            -0.4
+          ],
+          "ml_cluster": "Archetype A: Fluvial-Sulfate & Lacustrine Biosignature Basins",
+          "uncharted_gem": true,
+          "optimal_window": "JUN \u2013 AUG (ARCTIC CONTINUOUS DAYLIGHT)",
+          "seasonal_fidelity": [
+            62,
+            64,
+            70,
+            78,
+            88,
+            96,
+            98,
+            95,
+            84,
+            72,
+            65,
+            60
+          ]
+        },
+        {
+          "rank": 2,
+          "id": "svalbard_spitsbergen",
+          "name": "Svalbard Bokfjorden & Sverrefjell Volcanic Complex",
+          "region": "Spitsbergen, Svalbard Archipelago, Norway",
+          "rbf_ml_score": 92.6,
+          "hybrid_score": 97.9,
+          "sar_match_pct": 74.7,
+          "pca_coords": [
+            1.57,
+            0.64
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 AUG (ARCTIC EXPEDITION WINDOW)",
+          "seasonal_fidelity": [
+            55,
+            58,
+            65,
+            74,
+            85,
+            94,
+            98,
+            97,
+            80,
+            68,
+            58,
+            52
+          ]
+        },
+        {
+          "rank": 3,
+          "id": "qaidam_china",
+          "name": "Qaidam Basin Sulfate Yardangs & Aeolian Field",
+          "region": "Qinghai Plateau, Northwestern China",
+          "rbf_ml_score": 81.8,
+          "hybrid_score": 94.5,
+          "sar_match_pct": 66.7,
+          "pca_coords": [
+            0.71,
+            1.45
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "SEP \u2013 NOV (HIGH-CLARITY AEOLIAN WINDOW)",
+          "seasonal_fidelity": [
+            78,
+            80,
+            84,
+            88,
+            91,
+            86,
+            82,
+            89,
+            96,
+            98,
+            93,
+            82
+          ]
+        },
+        {
+          "rank": 4,
+          "id": "dallol_ethiopia",
+          "name": "Dallol Hydrothermal Evaporite Delta (Sector 2)",
+          "region": "Danakil Depression, Afar, Ethiopia",
+          "rbf_ml_score": 78.7,
+          "hybrid_score": 93.5,
+          "sar_match_pct": 69.3,
+          "pca_coords": [
+            -0.01,
+            2.29
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 FEB (WINTER THERMAL OPERATING WINDOW)",
+          "seasonal_fidelity": [
+            96,
+            94,
+            86,
+            75,
+            64,
+            55,
+            52,
+            56,
+            68,
+            82,
+            93,
+            97
+          ]
+        },
+        {
+          "rank": 5,
+          "id": "atacama_yungay",
+          "name": "Atacama Yungay Hyper-Arid Core (Control Benchmark)",
+          "region": "Antofagasta, Northern Chile",
+          "rbf_ml_score": 76.5,
+          "hybrid_score": 90.7,
+          "sar_match_pct": 78.0,
+          "pca_coords": [
+            1.31,
+            0.8
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": false,
+          "optimal_window": "OCT \u2013 MAR (AUSTRAL SUMMER UV PEAK)",
+          "seasonal_fidelity": [
+            96,
+            95,
+            94,
+            89,
+            84,
+            80,
+            81,
+            85,
+            90,
+            95,
+            97,
+            96
+          ]
+        },
+        {
+          "rank": 6,
+          "id": "iceland_askja",
+          "name": "Askja Caldera & Holuhraun Lava Fields",
+          "region": "Central Highlands, Iceland",
+          "rbf_ml_score": 52.4,
+          "hybrid_score": 83.5,
+          "sar_match_pct": 56.0,
+          "pca_coords": [
+            -1.02,
+            0.16
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 SEP (HIGHLAND ROAD ACCESS)",
+          "seasonal_fidelity": [
+            42,
+            45,
+            52,
+            60,
+            72,
+            88,
+            97,
+            98,
+            86,
+            64,
+            48,
+            40
+          ]
+        },
+        {
+          "rank": 7,
+          "id": "lonar_rim_ne",
+          "name": "Lonar Crater NE Basaltic Ejecta Rim (Sector 1)",
+          "region": "Deccan Traps, Maharashtra, India",
+          "rbf_ml_score": 34.6,
+          "hybrid_score": 74.7,
+          "sar_match_pct": 33.3,
+          "pca_coords": [
+            -1.13,
+            -1.54
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "JAN \u2013 APR (PEAK DRY PRE-MONSOON)",
+          "seasonal_fidelity": [
+            95,
+            97,
+            96,
+            93,
+            86,
+            62,
+            51,
+            54,
+            68,
+            82,
+            90,
+            94
+          ]
+        },
+        {
+          "rank": 8,
+          "id": "rogaland_norway",
+          "name": "Rogaland Anorthosite Massif (Block B2)",
+          "region": "Egersund Basin, Southern Norway",
+          "rbf_ml_score": 33.8,
+          "hybrid_score": 74.4,
+          "sar_match_pct": 38.7,
+          "pca_coords": [
+            -1.31,
+            -1.28
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "MAY \u2013 SEP (NORDIC SNOW-FREE WINDOW)",
+          "seasonal_fidelity": [
+            48,
+            50,
+            58,
+            74,
+            91,
+            96,
+            98,
+            95,
+            89,
+            72,
+            55,
+            49
+          ]
+        },
+        {
+          "rank": 9,
+          "id": "umm_jirsan_saudi",
+          "name": "Harrat Khaybar \u2014 Umm Jirsan Skylight Lava Tube",
+          "region": "Medina Volcanic Field, Saudi Arabia",
+          "rbf_ml_score": 33.8,
+          "hybrid_score": 74.0,
+          "sar_match_pct": 81.3,
+          "pca_coords": [
+            -2.06,
+            0.31
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 MAR (SURFACE-TO-CAVE DEPLOYMENT)",
+          "seasonal_fidelity": [
+            97,
+            96,
+            92,
+            84,
+            74,
+            68,
+            65,
+            67,
+            76,
+            88,
+            95,
+            98
+          ]
+        },
+        {
+          "rank": 10,
+          "id": "hawaii_mauna_loa",
+          "name": "Mauna Loa HI-SEAS Lunar/Mars Habitat & Volcanic Ridge",
+          "region": "Hawaii Volcanic Saddle, Hawaii, USA",
+          "rbf_ml_score": 27.8,
+          "hybrid_score": 69.6,
+          "sar_match_pct": 50.0,
+          "pca_coords": [
+            -1.88,
+            -0.06
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": false,
+          "optimal_window": "MAY \u2013 OCT (DRY PACIFIC TRADES)",
+          "seasonal_fidelity": [
+            84,
+            85,
+            87,
+            90,
+            95,
+            97,
+            98,
+            96,
+            95,
+            92,
+            88,
+            85
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gale_crater",
+      "name": "Gale Crater & Mount Sharp Stratigraphy",
+      "body": "Mars",
+      "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+      "pca_coords": [
+        0.52,
+        1.94
+      ],
+      "rf_top_dimension": "water_ice_isru",
+      "rf_feature_importances": {
+        "geology_mineralogy": 0.0034,
+        "topography_roughness": 0.027,
+        "thermal_illumination": 0.0791,
+        "water_ice_isru": 0.298,
+        "aeolian_dynamic_processes": 0.0448,
+        "astrobiology_extremophiles": 0.2526,
+        "subsurface_lava_tubes": 0.2179,
+        "operations_mobility": 0.0773
+      },
+      "gravity_compensation_350kg": {
+        "earth_weight_N": 3433.5,
+        "target_weight_N": 1298.5,
+        "counterweight_offload_N": 2135.0,
+        "offload_percentage": 62.2
+      },
+      "bekker_terramechanics_350kg": {
+        "z_earth_cm": 2.32,
+        "z_target_cm": 0.86,
+        "slip_risk": "LOW (Optimal Regolith Traction)"
+      },
+      "solar_attenuation": {
+        "target_flux_wm2": 590.0,
+        "earth_flux_wm2": 990.0,
+        "attenuation_pct": 40.4,
+        "compensation": "Apply 40.4% Neutral-Density Optical Filter on Rover PV Array"
+      },
+      "ranked_earth_sites": [
+        {
+          "rank": 1,
+          "id": "qaidam_china",
+          "name": "Qaidam Basin Sulfate Yardangs & Aeolian Field",
+          "region": "Qinghai Plateau, Northwestern China",
+          "rbf_ml_score": 99.1,
+          "hybrid_score": 98.5,
+          "sar_match_pct": 96.0,
+          "pca_coords": [
+            0.71,
+            1.45
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "SEP \u2013 NOV (HIGH-CLARITY AEOLIAN WINDOW)",
+          "seasonal_fidelity": [
+            78,
+            80,
+            84,
+            88,
+            91,
+            86,
+            82,
+            89,
+            96,
+            98,
+            93,
+            82
+          ]
+        },
+        {
+          "rank": 2,
+          "id": "dallol_ethiopia",
+          "name": "Dallol Hydrothermal Evaporite Delta (Sector 2)",
+          "region": "Danakil Depression, Afar, Ethiopia",
+          "rbf_ml_score": 96.5,
+          "hybrid_score": 98.5,
+          "sar_match_pct": 93.3,
+          "pca_coords": [
+            -0.01,
+            2.29
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 FEB (WINTER THERMAL OPERATING WINDOW)",
+          "seasonal_fidelity": [
+            96,
+            94,
+            86,
+            75,
+            64,
+            55,
+            52,
+            56,
+            68,
+            82,
+            93,
+            97
+          ]
+        },
+        {
+          "rank": 3,
+          "id": "atacama_yungay",
+          "name": "Atacama Yungay Hyper-Arid Core (Control Benchmark)",
+          "region": "Antofagasta, Northern Chile",
+          "rbf_ml_score": 93.7,
+          "hybrid_score": 96.0,
+          "sar_match_pct": 84.7,
+          "pca_coords": [
+            1.31,
+            0.8
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": false,
+          "optimal_window": "OCT \u2013 MAR (AUSTRAL SUMMER UV PEAK)",
+          "seasonal_fidelity": [
+            96,
+            95,
+            94,
+            89,
+            84,
+            80,
+            81,
+            85,
+            90,
+            95,
+            97,
+            96
+          ]
+        },
+        {
+          "rank": 4,
+          "id": "haughton_devon_canada",
+          "name": "Haughton Crater & Periglacial Polygon Basin",
+          "region": "Devon Island, Nunavut, Canada",
+          "rbf_ml_score": 80.9,
+          "hybrid_score": 94.2,
+          "sar_match_pct": 69.3,
+          "pca_coords": [
+            2.76,
+            -0.4
+          ],
+          "ml_cluster": "Archetype A: Fluvial-Sulfate & Lacustrine Biosignature Basins",
+          "uncharted_gem": true,
+          "optimal_window": "JUN \u2013 AUG (ARCTIC CONTINUOUS DAYLIGHT)",
+          "seasonal_fidelity": [
+            62,
+            64,
+            70,
+            78,
+            88,
+            96,
+            98,
+            95,
+            84,
+            72,
+            65,
+            60
+          ]
+        },
+        {
+          "rank": 5,
+          "id": "svalbard_spitsbergen",
+          "name": "Svalbard Bokfjorden & Sverrefjell Volcanic Complex",
+          "region": "Spitsbergen, Svalbard Archipelago, Norway",
+          "rbf_ml_score": 79.3,
+          "hybrid_score": 93.7,
+          "sar_match_pct": 88.0,
+          "pca_coords": [
+            1.57,
+            0.64
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 AUG (ARCTIC EXPEDITION WINDOW)",
+          "seasonal_fidelity": [
+            55,
+            58,
+            65,
+            74,
+            85,
+            94,
+            98,
+            97,
+            80,
+            68,
+            58,
+            52
+          ]
+        },
+        {
+          "rank": 6,
+          "id": "iceland_askja",
+          "name": "Askja Caldera & Holuhraun Lava Fields",
+          "region": "Central Highlands, Iceland",
+          "rbf_ml_score": 55.5,
+          "hybrid_score": 84.7,
+          "sar_match_pct": 93.3,
+          "pca_coords": [
+            -1.02,
+            0.16
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 SEP (HIGHLAND ROAD ACCESS)",
+          "seasonal_fidelity": [
+            42,
+            45,
+            52,
+            60,
+            72,
+            88,
+            97,
+            98,
+            86,
+            64,
+            48,
+            40
+          ]
+        },
+        {
+          "rank": 7,
+          "id": "lonar_rim_ne",
+          "name": "Lonar Crater NE Basaltic Ejecta Rim (Sector 1)",
+          "region": "Deccan Traps, Maharashtra, India",
+          "rbf_ml_score": 41.4,
+          "hybrid_score": 78.3,
+          "sar_match_pct": 70.7,
+          "pca_coords": [
+            -1.13,
+            -1.54
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "JAN \u2013 APR (PEAK DRY PRE-MONSOON)",
+          "seasonal_fidelity": [
+            95,
+            97,
+            96,
+            93,
+            86,
+            62,
+            51,
+            54,
+            68,
+            82,
+            90,
+            94
+          ]
+        },
+        {
+          "rank": 8,
+          "id": "rogaland_norway",
+          "name": "Rogaland Anorthosite Massif (Block B2)",
+          "region": "Egersund Basin, Southern Norway",
+          "rbf_ml_score": 33.9,
+          "hybrid_score": 74.0,
+          "sar_match_pct": 76.0,
+          "pca_coords": [
+            -1.31,
+            -1.28
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "MAY \u2013 SEP (NORDIC SNOW-FREE WINDOW)",
+          "seasonal_fidelity": [
+            48,
+            50,
+            58,
+            74,
+            91,
+            96,
+            98,
+            95,
+            89,
+            72,
+            55,
+            49
+          ]
+        },
+        {
+          "rank": 9,
+          "id": "umm_jirsan_saudi",
+          "name": "Harrat Khaybar \u2014 Umm Jirsan Skylight Lava Tube",
+          "region": "Medina Volcanic Field, Saudi Arabia",
+          "rbf_ml_score": 33.8,
+          "hybrid_score": 73.7,
+          "sar_match_pct": 81.3,
+          "pca_coords": [
+            -2.06,
+            0.31
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 MAR (SURFACE-TO-CAVE DEPLOYMENT)",
+          "seasonal_fidelity": [
+            97,
+            96,
+            92,
+            84,
+            74,
+            68,
+            65,
+            67,
+            76,
+            88,
+            95,
+            98
+          ]
+        },
+        {
+          "rank": 10,
+          "id": "hawaii_mauna_loa",
+          "name": "Mauna Loa HI-SEAS Lunar/Mars Habitat & Volcanic Ridge",
+          "region": "Hawaii Volcanic Saddle, Hawaii, USA",
+          "rbf_ml_score": 30.7,
+          "hybrid_score": 71.0,
+          "sar_match_pct": 87.3,
+          "pca_coords": [
+            -1.88,
+            -0.06
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": false,
+          "optimal_window": "MAY \u2013 OCT (DRY PACIFIC TRADES)",
+          "seasonal_fidelity": [
+            84,
+            85,
+            87,
+            90,
+            95,
+            97,
+            98,
+            96,
+            95,
+            92,
+            88,
+            85
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mawrth_vallis",
+      "name": "Mawrth Vallis Ancient Clay Outflow Channel",
+      "body": "Mars",
+      "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+      "pca_coords": [
+        0.03,
+        1.8
+      ],
+      "rf_top_dimension": "astrobiology_extremophiles",
+      "rf_feature_importances": {
+        "geology_mineralogy": 0.0054,
+        "topography_roughness": 0.0188,
+        "thermal_illumination": 0.1348,
+        "water_ice_isru": 0.2329,
+        "aeolian_dynamic_processes": 0.0376,
+        "astrobiology_extremophiles": 0.3056,
+        "subsurface_lava_tubes": 0.2049,
+        "operations_mobility": 0.06
+      },
+      "gravity_compensation_350kg": {
+        "earth_weight_N": 3433.5,
+        "target_weight_N": 1298.5,
+        "counterweight_offload_N": 2135.0,
+        "offload_percentage": 62.2
+      },
+      "bekker_terramechanics_350kg": {
+        "z_earth_cm": 2.19,
+        "z_target_cm": 0.78,
+        "slip_risk": "LOW (Optimal Regolith Traction)"
+      },
+      "solar_attenuation": {
+        "target_flux_wm2": 575.0,
+        "earth_flux_wm2": 1020.0,
+        "attenuation_pct": 43.6,
+        "compensation": "Apply 43.6% Neutral-Density Optical Filter on Rover PV Array"
+      },
+      "ranked_earth_sites": [
+        {
+          "rank": 1,
+          "id": "dallol_ethiopia",
+          "name": "Dallol Hydrothermal Evaporite Delta (Sector 2)",
+          "region": "Danakil Depression, Afar, Ethiopia",
+          "rbf_ml_score": 98.8,
+          "hybrid_score": 98.5,
+          "sar_match_pct": 98.0,
+          "pca_coords": [
+            -0.01,
+            2.29
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 FEB (WINTER THERMAL OPERATING WINDOW)",
+          "seasonal_fidelity": [
+            96,
+            94,
+            86,
+            75,
+            64,
+            55,
+            52,
+            56,
+            68,
+            82,
+            93,
+            97
+          ]
+        },
+        {
+          "rank": 2,
+          "id": "qaidam_china",
+          "name": "Qaidam Basin Sulfate Yardangs & Aeolian Field",
+          "region": "Qinghai Plateau, Northwestern China",
+          "rbf_ml_score": 97.0,
+          "hybrid_score": 98.5,
+          "sar_match_pct": 95.3,
+          "pca_coords": [
+            0.71,
+            1.45
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "SEP \u2013 NOV (HIGH-CLARITY AEOLIAN WINDOW)",
+          "seasonal_fidelity": [
+            78,
+            80,
+            84,
+            88,
+            91,
+            86,
+            82,
+            89,
+            96,
+            98,
+            93,
+            82
+          ]
+        },
+        {
+          "rank": 3,
+          "id": "atacama_yungay",
+          "name": "Atacama Yungay Hyper-Arid Core (Control Benchmark)",
+          "region": "Antofagasta, Northern Chile",
+          "rbf_ml_score": 92.1,
+          "hybrid_score": 95.5,
+          "sar_match_pct": 93.3,
+          "pca_coords": [
+            1.31,
+            0.8
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": false,
+          "optimal_window": "OCT \u2013 MAR (AUSTRAL SUMMER UV PEAK)",
+          "seasonal_fidelity": [
+            96,
+            95,
+            94,
+            89,
+            84,
+            80,
+            81,
+            85,
+            90,
+            95,
+            97,
+            96
+          ]
+        },
+        {
+          "rank": 4,
+          "id": "svalbard_spitsbergen",
+          "name": "Svalbard Bokfjorden & Sverrefjell Volcanic Complex",
+          "region": "Spitsbergen, Svalbard Archipelago, Norway",
+          "rbf_ml_score": 85.0,
+          "hybrid_score": 95.6,
+          "sar_match_pct": 96.7,
+          "pca_coords": [
+            1.57,
+            0.64
+          ],
+          "ml_cluster": "Archetype C: High-Slope Basaltic/Anorthositic Impact Rims",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 AUG (ARCTIC EXPEDITION WINDOW)",
+          "seasonal_fidelity": [
+            55,
+            58,
+            65,
+            74,
+            85,
+            94,
+            98,
+            97,
+            80,
+            68,
+            58,
+            52
+          ]
+        },
+        {
+          "rank": 5,
+          "id": "haughton_devon_canada",
+          "name": "Haughton Crater & Periglacial Polygon Basin",
+          "region": "Devon Island, Nunavut, Canada",
+          "rbf_ml_score": 83.5,
+          "hybrid_score": 95.1,
+          "sar_match_pct": 78.0,
+          "pca_coords": [
+            2.76,
+            -0.4
+          ],
+          "ml_cluster": "Archetype A: Fluvial-Sulfate & Lacustrine Biosignature Basins",
+          "uncharted_gem": true,
+          "optimal_window": "JUN \u2013 AUG (ARCTIC CONTINUOUS DAYLIGHT)",
+          "seasonal_fidelity": [
+            62,
+            64,
+            70,
+            78,
+            88,
+            96,
+            98,
+            95,
+            84,
+            72,
+            65,
+            60
+          ]
+        },
+        {
+          "rank": 6,
+          "id": "iceland_askja",
+          "name": "Askja Caldera & Holuhraun Lava Fields",
+          "region": "Central Highlands, Iceland",
+          "rbf_ml_score": 53.8,
+          "hybrid_score": 83.8,
+          "sar_match_pct": 84.7,
+          "pca_coords": [
+            -1.02,
+            0.16
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "JUL \u2013 SEP (HIGHLAND ROAD ACCESS)",
+          "seasonal_fidelity": [
+            42,
+            45,
+            52,
+            60,
+            72,
+            88,
+            97,
+            98,
+            86,
+            64,
+            48,
+            40
+          ]
+        },
+        {
+          "rank": 7,
+          "id": "lonar_rim_ne",
+          "name": "Lonar Crater NE Basaltic Ejecta Rim (Sector 1)",
+          "region": "Deccan Traps, Maharashtra, India",
+          "rbf_ml_score": 43.6,
+          "hybrid_score": 79.1,
+          "sar_match_pct": 62.0,
+          "pca_coords": [
+            -1.13,
+            -1.54
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "JAN \u2013 APR (PEAK DRY PRE-MONSOON)",
+          "seasonal_fidelity": [
+            95,
+            97,
+            96,
+            93,
+            86,
+            62,
+            51,
+            54,
+            68,
+            82,
+            90,
+            94
+          ]
+        },
+        {
+          "rank": 8,
+          "id": "rogaland_norway",
+          "name": "Rogaland Anorthosite Massif (Block B2)",
+          "region": "Egersund Basin, Southern Norway",
+          "rbf_ml_score": 38.9,
+          "hybrid_score": 76.6,
+          "sar_match_pct": 67.3,
+          "pca_coords": [
+            -1.31,
+            -1.28
+          ],
+          "ml_cluster": "Archetype D: Subterranean Flood Basalt Lava Tubes",
+          "uncharted_gem": true,
+          "optimal_window": "MAY \u2013 SEP (NORDIC SNOW-FREE WINDOW)",
+          "seasonal_fidelity": [
+            48,
+            50,
+            58,
+            74,
+            91,
+            96,
+            98,
+            95,
+            89,
+            72,
+            55,
+            49
+          ]
+        },
+        {
+          "rank": 9,
+          "id": "umm_jirsan_saudi",
+          "name": "Harrat Khaybar \u2014 Umm Jirsan Skylight Lava Tube",
+          "region": "Medina Volcanic Field, Saudi Arabia",
+          "rbf_ml_score": 33.9,
+          "hybrid_score": 73.6,
+          "sar_match_pct": 90.0,
+          "pca_coords": [
+            -2.06,
+            0.31
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": true,
+          "optimal_window": "NOV \u2013 MAR (SURFACE-TO-CAVE DEPLOYMENT)",
+          "seasonal_fidelity": [
+            97,
+            96,
+            92,
+            84,
+            74,
+            68,
+            65,
+            67,
+            76,
+            88,
+            95,
+            98
+          ]
+        },
+        {
+          "rank": 10,
+          "id": "hawaii_mauna_loa",
+          "name": "Mauna Loa HI-SEAS Lunar/Mars Habitat & Volcanic Ridge",
+          "region": "Hawaii Volcanic Saddle, Hawaii, USA",
+          "rbf_ml_score": 30.8,
+          "hybrid_score": 70.9,
+          "sar_match_pct": 78.7,
+          "pca_coords": [
+            -1.88,
+            -0.06
+          ],
+          "ml_cluster": "Archetype B: Cryogenic Periglacial & Polar Volatile Traps",
+          "uncharted_gem": false,
+          "optimal_window": "MAY \u2013 OCT (DRY PACIFIC TRADES)",
+          "seasonal_fidelity": [
+            84,
+            85,
+            87,
+            90,
+            95,
+            97,
+            98,
+            96,
+            95,
+            92,
+            88,
+            85
+          ]
+        }
+      ]
+    }
+  ]
+}

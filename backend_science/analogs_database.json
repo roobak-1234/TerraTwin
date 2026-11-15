@@ -1,0 +1,905 @@
+{
+  "dimensions": [
+    "geology_mineralogy",
+    "topography_roughness",
+    "thermal_illumination",
+    "water_ice_isru",
+    "aeolian_dynamic_processes",
+    "astrobiology_extremophiles",
+    "subsurface_lava_tubes",
+    "operations_mobility"
+  ],
+  "planetary_targets": [
+    {
+      "id": "shackleton_rim",
+      "name": "Shackleton Crater Rim (Artemis III South Pole)",
+      "body": "Moon",
+      "coordinates": "89.9\u00b0 S, 0.0\u00b0 E",
+      "gravity_ms2": 1.62,
+      "pressure_mbar": 0.0,
+      "agency_sources": [
+        "NASA LRO Diviner (Surface Temp 40K-110K)",
+        "NASA LRO LOLA (Slope 15\u00b0-32\u00b0)",
+        "NASA LRO Mini-RF (CPR & SAR Roughness)"
+      ],
+      "key_process": "Cryogenic volatile trapping in Permanently Shadowed Regions (PSRs) & hyper-low angle solar illumination",
+      "vector": {
+        "geology_mineralogy": 92,
+        "topography_roughness": 88,
+        "thermal_illumination": 98,
+        "water_ice_isru": 95,
+        "aeolian_dynamic_processes": 5,
+        "astrobiology_extremophiles": 10,
+        "subsurface_lava_tubes": 20,
+        "operations_mobility": 94
+      },
+      "target_specs": {
+        "dominant_rock": "Highland Anorthosite (Plagioclase > 85%)",
+        "mean_slope_deg": 21.5,
+        "sar_sigma0_db": -6.8,
+        "temp_range_c": "-233\u00b0C to -150\u00b0C"
+      },
+      "solar_flux_wm2": 150.0,
+      "terramechanics": {
+        "kc_kpa": 1.4,
+        "kphi_kpa": 820.0,
+        "n_exponent": 1.0,
+        "bearing_capacity_kpa": 48.0
+      }
+    },
+    {
+      "id": "marius_hills_pit",
+      "name": "Marius Hills Skylight Pit (Lunar Mare Lava Tube)",
+      "body": "Moon",
+      "coordinates": "14.1\u00b0 N, 303.2\u00b0 E",
+      "gravity_ms2": 1.62,
+      "pressure_mbar": 0.0,
+      "agency_sources": [
+        "NASA LRO LROC NAC (Sub-meter Pit Geometry)",
+        "JAXA SELENE / Kaguya Lunar Radar Sounder",
+        "NASA PDS Flood Basalt Mineralogy"
+      ],
+      "key_process": "Volcanic lava tube roof collapse (skylight formation) & subsurface thermal radiation shielding",
+      "vector": {
+        "geology_mineralogy": 90,
+        "topography_roughness": 75,
+        "thermal_illumination": 70,
+        "water_ice_isru": 30,
+        "aeolian_dynamic_processes": 5,
+        "astrobiology_extremophiles": 15,
+        "subsurface_lava_tubes": 99,
+        "operations_mobility": 85
+      },
+      "target_specs": {
+        "dominant_rock": "Tholeiitic Mare Flood Basalt",
+        "mean_slope_deg": 4.2,
+        "sar_sigma0_db": -14.2,
+        "temp_range_c": "-153\u00b0C Surface / -20\u00b0C Interior"
+      },
+      "solar_flux_wm2": 0.0,
+      "terramechanics": {
+        "kc_kpa": 4.5,
+        "kphi_kpa": 1500.0,
+        "n_exponent": 1.15,
+        "bearing_capacity_kpa": 120.0
+      }
+    },
+    {
+      "id": "malapert_mountain",
+      "name": "Malapert Mountain (Peak of Eternal Light & Artemis Relay)",
+      "body": "Moon",
+      "coordinates": "86.0\u00b0 S, 0.0\u00b0 E",
+      "gravity_ms2": 1.62,
+      "pressure_mbar": 0.0,
+      "agency_sources": [
+        "NASA LRO LOLA Elevation (5000m Peak)",
+        "NASA LRO Diviner Thermal",
+        "JAXA Kaguya Terrain Camera"
+      ],
+      "key_process": "Near-continuous solar illumination (86% diurnal cycle) & continuous direct line-of-sight to Earth for permanent communications relay",
+      "vector": {
+        "geology_mineralogy": 90,
+        "topography_roughness": 92,
+        "thermal_illumination": 99,
+        "water_ice_isru": 70,
+        "aeolian_dynamic_processes": 5,
+        "astrobiology_extremophiles": 10,
+        "subsurface_lava_tubes": 15,
+        "operations_mobility": 88
+      },
+      "target_specs": {
+        "dominant_rock": "Shock-Metamorphosed Pure Anorthositic Ridge",
+        "mean_slope_deg": 26.5,
+        "sar_sigma0_db": -5.8,
+        "temp_range_c": "-90\u00b0C to -45\u00b0C"
+      },
+      "solar_flux_wm2": 1361.0,
+      "terramechanics": {
+        "kc_kpa": 1.6,
+        "kphi_kpa": 860.0,
+        "n_exponent": 1.02,
+        "bearing_capacity_kpa": 55.0
+      }
+    },
+    {
+      "id": "aristarchus_plateau",
+      "name": "Aristarchus Pyroclastic Plateau (Volcanic Glass & ISRU)",
+      "body": "Moon",
+      "coordinates": "23.7\u00b0 N, 312.6\u00b0 E",
+      "gravity_ms2": 1.62,
+      "pressure_mbar": 0.0,
+      "agency_sources": [
+        "NASA LRO LROC NAC / Mini-RF",
+        "NASA Clementine UV-VIS Spectral Reflectance",
+        "Lunar Prospector Gamma Ray Spectrometer (Thorium)"
+      ],
+      "key_process": "Explosive lunar pyroclastic volcanism depositing regional high-titanium orange/black volcanic glass beads enriched in trapped solar-wind hydrogen and volatiles",
+      "vector": {
+        "geology_mineralogy": 98,
+        "topography_roughness": 76,
+        "thermal_illumination": 82,
+        "water_ice_isru": 84,
+        "aeolian_dynamic_processes": 10,
+        "astrobiology_extremophiles": 12,
+        "subsurface_lava_tubes": 75,
+        "operations_mobility": 85
+      },
+      "target_specs": {
+        "dominant_rock": "Regional Pyroclastic Volcanic Glass & High-Ti Basalt",
+        "mean_slope_deg": 6.2,
+        "sar_sigma0_db": -12.4,
+        "temp_range_c": "-130\u00b0C to +110\u00b0C"
+      },
+      "solar_flux_wm2": 1361.0,
+      "terramechanics": {
+        "kc_kpa": 2.8,
+        "kphi_kpa": 1100.0,
+        "n_exponent": 1.08,
+        "bearing_capacity_kpa": 85.0
+      }
+    },
+    {
+      "id": "jezero_delta",
+      "name": "Jezero Crater Western Delta & Floor",
+      "body": "Mars",
+      "coordinates": "18.38\u00b0 N, 77.58\u00b0 E",
+      "gravity_ms2": 3.71,
+      "pressure_mbar": 6.1,
+      "agency_sources": [
+        "NASA PDS MOLA (Topography & Slope)",
+        "NASA MRO CRISM (Phyllosilicates, Carbonates & Sulfates)",
+        "Mars 2020 Perseverance Mastcam-Z & RIMFAX Radar"
+      ],
+      "key_process": "Fluvial-lacustrine deltaic sedimentation, hydrothermal carbonate alteration & aeolian TAR migration",
+      "vector": {
+        "geology_mineralogy": 96,
+        "topography_roughness": 82,
+        "thermal_illumination": 75,
+        "water_ice_isru": 65,
+        "aeolian_dynamic_processes": 88,
+        "astrobiology_extremophiles": 95,
+        "subsurface_lava_tubes": 15,
+        "operations_mobility": 86
+      },
+      "target_specs": {
+        "dominant_rock": "Fe/Mg Smectite Clays, Carbonates & Basalt",
+        "mean_slope_deg": 8.4,
+        "sar_sigma0_db": -11.5,
+        "temp_range_c": "-88\u00b0C to -12\u00b0C"
+      },
+      "solar_flux_wm2": 324.0,
+      "terramechanics": {
+        "kc_kpa": 0.9,
+        "kphi_kpa": 580.0,
+        "n_exponent": 0.92,
+        "bearing_capacity_kpa": 45.0
+      }
+    },
+    {
+      "id": "arcadia_planitia",
+      "name": "Arcadia Planitia (Human Mars Landing Candidate)",
+      "body": "Mars",
+      "coordinates": "39.2\u00b0 N, 188.0\u00b0 E",
+      "gravity_ms2": 3.71,
+      "pressure_mbar": 6.5,
+      "agency_sources": [
+        "NASA PDS SHARAD (Subsurface Water-Ice Reflectors)",
+        "NASA HiRISE (Periglacial Thermal Contraction Polygons)",
+        "TES Thermal Inertia (Bedrock vs. Fine Regolith)"
+      ],
+      "key_process": "Periglacial cryoturbation over shallow massive water-ice sheets (Starship ISRU candidate)",
+      "vector": {
+        "geology_mineralogy": 78,
+        "topography_roughness": 90,
+        "thermal_illumination": 92,
+        "water_ice_isru": 98,
+        "aeolian_dynamic_processes": 85,
+        "astrobiology_extremophiles": 75,
+        "subsurface_lava_tubes": 25,
+        "operations_mobility": 92
+      },
+      "target_specs": {
+        "dominant_rock": "Amazonian Volcanic Plains & Ice-Cemented Regolith",
+        "mean_slope_deg": 1.8,
+        "sar_sigma0_db": -16.4,
+        "temp_range_c": "-110\u00b0C to -5\u00b0C"
+      },
+      "solar_flux_wm2": 342.0,
+      "terramechanics": {
+        "kc_kpa": 5.2,
+        "kphi_kpa": 1850.0,
+        "n_exponent": 1.18,
+        "bearing_capacity_kpa": 145.0
+      }
+    },
+    {
+      "id": "gale_crater",
+      "name": "Gale Crater & Mount Sharp Stratigraphy",
+      "body": "Mars",
+      "coordinates": "5.37\u00b0 S, 137.44\u00b0 E",
+      "gravity_ms2": 3.71,
+      "pressure_mbar": 7.5,
+      "agency_sources": [
+        "NASA MSL Curiosity APXS & CheMin XRD",
+        "NASA MRO CRISM Clays/Sulfates",
+        "NASA PDS HiRISE 25cm/px"
+      ],
+      "key_process": "Transition from ancient Noachian lacustrine habitable smectite clays to desiccating Hesperian sulfate salts and active aeolian Bagnold dune fields",
+      "vector": {
+        "geology_mineralogy": 97,
+        "topography_roughness": 86,
+        "thermal_illumination": 80,
+        "water_ice_isru": 55,
+        "aeolian_dynamic_processes": 94,
+        "astrobiology_extremophiles": 96,
+        "subsurface_lava_tubes": 10,
+        "operations_mobility": 84
+      },
+      "target_specs": {
+        "dominant_rock": "Stratified Lacustrine Mudstone, Smectite Clay & Magnesium Sulfate",
+        "mean_slope_deg": 12.0,
+        "sar_sigma0_db": -10.8,
+        "temp_range_c": "-80\u00b0C to +5\u00b0C"
+      },
+      "solar_flux_wm2": 590.0,
+      "terramechanics": {
+        "kc_kpa": 1.2,
+        "kphi_kpa": 650.0,
+        "n_exponent": 0.95,
+        "bearing_capacity_kpa": 68.0
+      }
+    },
+    {
+      "id": "mawrth_vallis",
+      "name": "Mawrth Vallis Ancient Clay Outflow Channel",
+      "body": "Mars",
+      "coordinates": "23.99\u00b0 N, 341.04\u00b0 E",
+      "gravity_ms2": 3.71,
+      "pressure_mbar": 6.8,
+      "agency_sources": [
+        "NASA MRO CRISM (Fe/Mg & Al-Smectites)",
+        "ESA Mars Express OMEGA Spectrometer",
+        "NASA PDS HiRISE Stratigraphy"
+      ],
+      "key_process": "Ancient catastrophic mega-flood carving exposing 200m+ thick continuous sequence of diverse phyllosilicates (nontronite, montmorillonite, kaolinite) preserving Noachian biosignatures",
+      "vector": {
+        "geology_mineralogy": 99,
+        "topography_roughness": 78,
+        "thermal_illumination": 76,
+        "water_ice_isru": 62,
+        "aeolian_dynamic_processes": 80,
+        "astrobiology_extremophiles": 98,
+        "subsurface_lava_tubes": 10,
+        "operations_mobility": 87
+      },
+      "target_specs": {
+        "dominant_rock": "Layered Fe/Mg & Al-Smectite Phyllosilicates",
+        "mean_slope_deg": 7.5,
+        "sar_sigma0_db": -12.1,
+        "temp_range_c": "-95\u00b0C to 0\u00b0C"
+      },
+      "solar_flux_wm2": 575.0,
+      "terramechanics": {
+        "kc_kpa": 1.0,
+        "kphi_kpa": 590.0,
+        "n_exponent": 0.93,
+        "bearing_capacity_kpa": 62.0
+      }
+    }
+  ],
+  "earth_analogs": [
+    {
+      "id": "rogaland_norway",
+      "name": "Rogaland Anorthosite Massif (Block B2)",
+      "region": "Egersund Basin, Southern Norway",
+      "coordinates": "58.452\u00b0 N, 6.012\u00b0 E",
+      "bbox_scale": "1.2 km \u00d7 1.2 km Glacially Polished Bedrock Grid",
+      "unrecognized_gem": true,
+      "agency_datasets_used": [
+        "ESA Copernicus Sentinel-2 SWIR Plagioclase Index",
+        "JAXA G-Portal ALOS AW3D30 Slope DEM",
+        "CSA RADARSAT-1 C-Band Backscatter"
+      ],
+      "vector": {
+        "geology_mineralogy": 98,
+        "topography_roughness": 84,
+        "thermal_illumination": 52,
+        "water_ice_isru": 45,
+        "aeolian_dynamic_processes": 20,
+        "astrobiology_extremophiles": 18,
+        "subsurface_lava_tubes": 10,
+        "operations_mobility": 91
+      },
+      "metrics": {
+        "dominant_rock": "High-Purity Calcic Plagioclase Anorthosite (ESA Lunar Highlands Simulant Host)",
+        "mean_slope_deg": 18.2,
+        "sar_sigma0_db": -7.2,
+        "temp_range_c": "-8\u00b0C to +19\u00b0C"
+      },
+      "strong_analogy": "98% Mineralogical & geotechnical twin of Lunar Highlands / Artemis III Shackleton Rim regolith. Glacially polished, unweathered calcic plagioclase matches LRO Diviner silicate signatures and serves as ESA's premier European lunar regolith simulant host.",
+      "breakdown_limits": "Nordic winter maritime climate, subaerial precipitation, and 1g gravity.",
+      "process_twin": "Plutonic cumulate crystallization and glacial bedrock scour.",
+      "worldview_layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "solar_flux_wm2": 1040.0,
+      "optimal_window": "MAY \u2013 SEP (NORDIC SNOW-FREE WINDOW)",
+      "seasonal_fidelity": [
+        48,
+        50,
+        58,
+        74,
+        91,
+        96,
+        98,
+        95,
+        89,
+        72,
+        55,
+        49
+      ],
+      "peak_lst_c": "+16\u00b0C",
+      "ndvi": "0.09",
+      "rainfall_mm": "18 mm",
+      "seasonal_process_note": "Glacially scoured, unweathered plagioclase bedrock exposed post-snowmelt for high-albedo LRO Diviner spectral calibration.",
+      "worldview_url": "https://worldview.earthdata.nasa.gov/?v=5.5,58.1,6.5,58.8",
+      "terramechanics": {
+        "kc_kpa": 1.8,
+        "kphi_kpa": 890.0,
+        "n_exponent": 1.05
+      }
+    },
+    {
+      "id": "lonar_rim_ne",
+      "name": "Lonar Crater NE Basaltic Ejecta Rim (Sector 1)",
+      "region": "Deccan Traps, Maharashtra, India",
+      "coordinates": "19.983\u00b0 N, 76.514\u00b0 E",
+      "bbox_scale": "0.8 km \u00d7 0.8 km Proximal Ejecta Blanket",
+      "unrecognized_gem": true,
+      "agency_datasets_used": [
+        "CSA RADARSAT Constellation Mission (RCM) Dual-Pol SAR Backscatter",
+        "NASA Earthdata ASTER Thermal Infrared Emissivity",
+        "JAXA ALOS PALSAR L-Band Roughness"
+      ],
+      "vector": {
+        "geology_mineralogy": 95,
+        "topography_roughness": 94,
+        "thermal_illumination": 38,
+        "water_ice_isru": 25,
+        "aeolian_dynamic_processes": 45,
+        "astrobiology_extremophiles": 30,
+        "subsurface_lava_tubes": 35,
+        "operations_mobility": 92
+      },
+      "metrics": {
+        "dominant_rock": "Shocked Tholeiitic Flood Basalt Breccia & Maskelynite Glass",
+        "mean_slope_deg": 24.0,
+        "sar_sigma0_db": -6.4,
+        "temp_range_c": "+15\u00b0C to +42\u00b0C"
+      },
+      "strong_analogy": "Only terrestrial hyper-velocity impact crater emplaced purely in flood basalt. Yields shocked basalt breccias and maskelynite glass identical to Apollo 11/12 lunar mare return samples.",
+      "breakdown_limits": "Post-monsoon seasonal vegetation and Earth atmospheric pressure.",
+      "process_twin": "Hyper-velocity basaltic impact shock metamorphism, maskelynite formation, and fluidized ejecta emplacement.",
+      "worldview_layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "solar_flux_wm2": 1010.0,
+      "optimal_window": "JAN \u2013 APR (PEAK DRY PRE-MONSOON)",
+      "seasonal_fidelity": [
+        95,
+        97,
+        96,
+        93,
+        86,
+        62,
+        51,
+        54,
+        68,
+        82,
+        90,
+        94
+      ],
+      "peak_lst_c": "+34\u00b0C",
+      "ndvi": "0.11",
+      "rainfall_mm": "3 mm",
+      "seasonal_process_note": "Minimum canopy cover exposes blocky basaltic impact ejecta for CSA RADARSAT & LRO Mini-RF circular polarization ratio (CPR) matching.",
+      "worldview_url": "https://worldview.earthdata.nasa.gov/?v=76.3,19.8,76.7,20.1",
+      "terramechanics": {
+        "kc_kpa": 3.2,
+        "kphi_kpa": 1100.0,
+        "n_exponent": 1.12
+      }
+    },
+    {
+      "id": "haughton_devon_canada",
+      "name": "Haughton Crater & Periglacial Polygon Basin",
+      "region": "Devon Island, Nunavut, Canada",
+      "coordinates": "75.383\u00b0 N, 89.667\u00b0 W",
+      "bbox_scale": "2.5 km \u00d7 2.5 km Arctic Cryo-Impact Grid",
+      "unrecognized_gem": true,
+      "agency_datasets_used": [
+        "NASA Terra MODIS LST (MOD11A2)",
+        "CSA RADARSAT Constellation Mission (RCM)",
+        "ESA Sentinel-1 Interferometric Coherence"
+      ],
+      "vector": {
+        "geology_mineralogy": 84,
+        "topography_roughness": 89,
+        "thermal_illumination": 94,
+        "water_ice_isru": 97,
+        "aeolian_dynamic_processes": 82,
+        "astrobiology_extremophiles": 86,
+        "subsurface_lava_tubes": 15,
+        "operations_mobility": 90
+      },
+      "metrics": {
+        "dominant_rock": "Ice-Cemented Impact Breccia & Periglacial Permafrost Polygons",
+        "mean_slope_deg": 3.1,
+        "sar_sigma0_db": -15.4,
+        "temp_range_c": "-42\u00b0C to +8\u00b0C"
+      },
+      "strong_analogy": "Premier terrestrial analog for Mars Arcadia Planitia cryogenic ground-ice sheets and Artemis polar cold traps. Demonstrates sorted patterned ground and permafrost wedge cracking.",
+      "breakdown_limits": "Remote arctic logistics, seasonal sea-ice restrictions, and polar bear safety protocols.",
+      "process_twin": "Periglacial cryoturbation, thermal contraction cracking, and ground ice segregation.",
+      "worldview_layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "solar_flux_wm2": 980.0,
+      "optimal_window": "JUN \u2013 AUG (ARCTIC CONTINUOUS DAYLIGHT)",
+      "seasonal_fidelity": [
+        62,
+        64,
+        70,
+        78,
+        88,
+        96,
+        98,
+        95,
+        84,
+        72,
+        65,
+        60
+      ],
+      "peak_lst_c": "+4\u00b0C",
+      "ndvi": "0.03",
+      "rainfall_mm": "6 mm",
+      "seasonal_process_note": "Active-layer freeze-thaw cryoturbation over shallow ground-ice table matching Mars Arcadia Planitia SHARAD radar reflectors.",
+      "worldview_url": "https://worldview.earthdata.nasa.gov/?v=-91.0,74.8,-88.0,75.8",
+      "terramechanics": {
+        "kc_kpa": 5.6,
+        "kphi_kpa": 1950.0,
+        "n_exponent": 1.2
+      }
+    },
+    {
+      "id": "dallol_ethiopia",
+      "name": "Dallol Hydrothermal Evaporite Delta (Sector 2)",
+      "region": "Danakil Depression, Afar, Ethiopia",
+      "coordinates": "14.241\u00b0 N, 40.299\u00b0 E",
+      "bbox_scale": "1.0 km \u00d7 1.0 km Hyper-Acidic Salt Basin",
+      "unrecognized_gem": true,
+      "agency_datasets_used": [
+        "ESA Sentinel-2 MSI Fe-Oxide/Clay Ratios",
+        "NASA ECOSTRESS Thermal Infrared",
+        "JAXA ALOS-2 L-Band InSAR"
+      ],
+      "vector": {
+        "geology_mineralogy": 95,
+        "topography_roughness": 80,
+        "thermal_illumination": 68,
+        "water_ice_isru": 66,
+        "aeolian_dynamic_processes": 84,
+        "astrobiology_extremophiles": 98,
+        "subsurface_lava_tubes": 12,
+        "operations_mobility": 83
+      },
+      "metrics": {
+        "dominant_rock": "Hydrothermal Iron-Sulfate, Smectite Clays, Jarosite & Halite (pH < 1.5)",
+        "mean_slope_deg": 5.8,
+        "sar_sigma0_db": -11.8,
+        "temp_range_c": "+24\u00b0C to +49\u00b0C"
+      },
+      "strong_analogy": "98% geochemical fidelity to Noachian Mars Jezero Crater acid-sulfate hydrothermal systems. Hyper-acidic brine ponds precipitate jarosite, natroalunite, and iron oxyhydroxides.",
+      "breakdown_limits": "Toxic volcanic fumes (SO2, H2S) requiring respirators and corrosive salt crusts.",
+      "process_twin": "Volcanic degassing, subsurface hydrothermal circulation, and hyper-saline flash evaporation.",
+      "worldview_layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "solar_flux_wm2": 1020.0,
+      "optimal_window": "NOV \u2013 FEB (WINTER THERMAL OPERATING WINDOW)",
+      "seasonal_fidelity": [
+        96,
+        94,
+        86,
+        75,
+        64,
+        55,
+        52,
+        56,
+        68,
+        82,
+        93,
+        97
+      ],
+      "peak_lst_c": "+36\u00b0C",
+      "ndvi": "0.01",
+      "rainfall_mm": "1 mm",
+      "seasonal_process_note": "Active hydrothermal brine degassing, iron-sulfate mineral precipitation, and polyextremophile chemolithoautotrophy.",
+      "worldview_url": "https://worldview.earthdata.nasa.gov/?v=39.8,13.9,40.7,14.6",
+      "terramechanics": {
+        "kc_kpa": 1.1,
+        "kphi_kpa": 620.0,
+        "n_exponent": 0.94
+      }
+    },
+    {
+      "id": "qaidam_china",
+      "name": "Qaidam Basin Sulfate Yardangs & Aeolian Field",
+      "region": "Qinghai Plateau, Northwestern China",
+      "coordinates": "38.512\u00b0 N, 91.488\u00b0 E",
+      "bbox_scale": "2.0 km \u00d7 2.0 km Hyper-Arid Yardang Corridor",
+      "unrecognized_gem": true,
+      "agency_datasets_used": [
+        "NASA EMIT Mineral Dust Imaging Spectrometer",
+        "ESA Sentinel-1 SAR C-Band",
+        "JAXA G-Portal AW3D30 Elevation"
+      ],
+      "vector": {
+        "geology_mineralogy": 96,
+        "topography_roughness": 83,
+        "thermal_illumination": 82,
+        "water_ice_isru": 62,
+        "aeolian_dynamic_processes": 95,
+        "astrobiology_extremophiles": 91,
+        "subsurface_lava_tubes": 12,
+        "operations_mobility": 87
+      },
+      "metrics": {
+        "dominant_rock": "Hydrous Iron/Magnesium Sulfates (Jarosite/Kieserite) & Aeolian Sand Sheets",
+        "mean_slope_deg": 7.9,
+        "sar_sigma0_db": -11.4,
+        "temp_range_c": "-22\u00b0C to +28\u00b0C (2,800m)"
+      },
+      "strong_analogy": "World's largest high-altitude hyper-arid yardang field with bedded sulfate mineralogy mirroring Martian sulfate units (kieserite, gypsum, jarosite) mapped by MRO CRISM.",
+      "breakdown_limits": "High altitude hypoxia (2,800m) and severe winter blizzards.",
+      "process_twin": "Aeolian deflation, wind abrasion, and capillary evaporite formation.",
+      "worldview_layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "solar_flux_wm2": 990.0,
+      "optimal_window": "SEP \u2013 NOV (HIGH-CLARITY AEOLIAN WINDOW)",
+      "seasonal_fidelity": [
+        78,
+        80,
+        84,
+        88,
+        91,
+        86,
+        82,
+        89,
+        96,
+        98,
+        93,
+        82
+      ],
+      "peak_lst_c": "+14\u00b0C",
+      "ndvi": "0.02",
+      "rainfall_mm": "2 mm",
+      "seasonal_process_note": "Bidirectional wind-carved sulfate yardangs and transverse aeolian ridges (TARs) matching Martian Gale and Jezero craters.",
+      "worldview_url": "https://worldview.earthdata.nasa.gov/?v=90.8,38.1,92.1,38.9",
+      "terramechanics": {
+        "kc_kpa": 1.3,
+        "kphi_kpa": 680.0,
+        "n_exponent": 0.98
+      }
+    },
+    {
+      "id": "umm_jirsan_saudi",
+      "name": "Harrat Khaybar \u2014 Umm Jirsan Skylight Lava Tube",
+      "region": "Medina Volcanic Field, Saudi Arabia",
+      "coordinates": "25.588\u00b0 N, 39.757\u00b0 E",
+      "bbox_scale": "1.5 km Subterranean Basaltic Tube & 3 Skylights",
+      "unrecognized_gem": true,
+      "agency_datasets_used": [
+        "CSA RADARSAT-1 / Sentinel-1 SAR Roughness",
+        "JAXA ALOS AW3D30 Volcanic Shield DEM",
+        "NASA Worldview VIIRS Thermal"
+      ],
+      "vector": {
+        "geology_mineralogy": 91,
+        "topography_roughness": 79,
+        "thermal_illumination": 74,
+        "water_ice_isru": 28,
+        "aeolian_dynamic_processes": 65,
+        "astrobiology_extremophiles": 42,
+        "subsurface_lava_tubes": 99,
+        "operations_mobility": 86
+      },
+      "metrics": {
+        "dominant_rock": "Alkali Olivine Flood Basalt & Roof Collapse Breakdown Boulders",
+        "mean_slope_deg": 4.8,
+        "sar_sigma0_db": -13.6,
+        "temp_range_c": "+8\u00b0C to +45\u00b0C / Constant +24\u00b0C Cave"
+      },
+      "strong_analogy": "Premier terrestrial analog for Lunar Marius Hills Pit and Martian volcanic conduits. Features 1.5 km of intact basaltic tube ceiling, 3 vertical skylights, and breakdown ramps.",
+      "breakdown_limits": "Earth 1g gravity and organic bat guano accumulations in cave deeper recesses.",
+      "process_twin": "Lava tube inflation, thermal downcutting, roof crusting, and gravitational collapse.",
+      "worldview_layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "solar_flux_wm2": 1050.0,
+      "optimal_window": "NOV \u2013 MAR (SURFACE-TO-CAVE DEPLOYMENT)",
+      "seasonal_fidelity": [
+        97,
+        96,
+        92,
+        84,
+        74,
+        68,
+        65,
+        67,
+        76,
+        88,
+        95,
+        98
+      ],
+      "peak_lst_c": "+27\u00b0C",
+      "ndvi": "0.02",
+      "rainfall_mm": "3 mm",
+      "seasonal_process_note": "Subterranean lava tube interior maintains stable thermal shielding and GNSS-denied geometry matching Lunar Marius Hills Pit.",
+      "worldview_url": "https://worldview.earthdata.nasa.gov/?v=39.3,25.2,40.2,25.9",
+      "terramechanics": {
+        "kc_kpa": 4.8,
+        "kphi_kpa": 1600.0,
+        "n_exponent": 1.14
+      }
+    },
+    {
+      "id": "atacama_yungay",
+      "name": "Atacama Yungay Hyper-Arid Core (Control Benchmark)",
+      "region": "Antofagasta, Northern Chile",
+      "coordinates": "-24.088\u00b0 S, -69.913\u00b0 W",
+      "bbox_scale": "5.0 km \u00d7 5.0 km Hyper-Arid Control Basin",
+      "unrecognized_gem": false,
+      "agency_datasets_used": [
+        "NASA Terra ASTER TIR Emissivity",
+        "ESA Sentinel-2 Aridity Index",
+        "CSA RADARSAT-1 Roughness"
+      ],
+      "vector": {
+        "geology_mineralogy": 85,
+        "topography_roughness": 84,
+        "thermal_illumination": 76,
+        "water_ice_isru": 60,
+        "aeolian_dynamic_processes": 92,
+        "astrobiology_extremophiles": 94,
+        "subsurface_lava_tubes": 10,
+        "operations_mobility": 88
+      },
+      "metrics": {
+        "dominant_rock": "Perchlorate/Sulfate Regolith Crust & Alluvial Fans",
+        "mean_slope_deg": 5.2,
+        "sar_sigma0_db": -13.1,
+        "temp_range_c": "-5\u00b0C to +36\u00b0C"
+      },
+      "strong_analogy": "Classic gold-standard Mars analog used by NASA Viking, Phoenix, and Curiosity teams. Extreme hyper-aridity, perchlorate soil chemistry, and negligible biomass.",
+      "breakdown_limits": "Benchmark over-testing reduces novel discovery potential; lack of active permafrost or volcanism.",
+      "process_twin": "Atmospheric hyper-aridity, UV photochemistry, and aeolian deflation.",
+      "worldview_layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "solar_flux_wm2": 1080.0,
+      "optimal_window": "OCT \u2013 MAR (AUSTRAL SUMMER UV PEAK)",
+      "seasonal_fidelity": [
+        96,
+        95,
+        94,
+        89,
+        84,
+        80,
+        81,
+        85,
+        90,
+        95,
+        97,
+        96
+      ],
+      "peak_lst_c": "+29\u00b0C",
+      "ndvi": "0.01",
+      "rainfall_mm": "0.5 mm",
+      "seasonal_process_note": "Hyper-arid UV photochemical perchlorate generation and wind deflation.",
+      "worldview_url": "https://worldview.earthdata.nasa.gov/?v=-70.5,-24.5,-69.3,-23.6",
+      "terramechanics": {
+        "kc_kpa": 1.5,
+        "kphi_kpa": 720.0,
+        "n_exponent": 0.99
+      }
+    },
+    {
+      "id": "iceland_askja",
+      "name": "Askja Caldera & Holuhraun Lava Fields",
+      "region": "Central Highlands, Iceland",
+      "continent": "Europe",
+      "coordinates": "65.030\u00b0 N, 16.750\u00b0 W",
+      "bbox_scale": "3.0 km \u00d7 3.0 km High-Permeability Volcanic Sand Plain",
+      "unrecognized_gem": true,
+      "agency_datasets_used": [
+        "ESA Sentinel-1 C-Band InSAR",
+        "NASA Terra ASTER TIR",
+        "Copernicus Sentinel-2 MSI"
+      ],
+      "vector": {
+        "geology_mineralogy": 93,
+        "topography_roughness": 86,
+        "thermal_illumination": 62,
+        "water_ice_isru": 40,
+        "aeolian_dynamic_processes": 86,
+        "astrobiology_extremophiles": 48,
+        "subsurface_lava_tubes": 72,
+        "operations_mobility": 88
+      },
+      "metrics": {
+        "dominant_rock": "Porous Tholeiitic Basalt Pumice, Ash & Recent Flood Basalt",
+        "mean_slope_deg": 8.5,
+        "sar_sigma0_db": -9.8,
+        "temp_range_c": "-18\u00b0C to +14\u00b0C"
+      },
+      "strong_analogy": "Historic Apollo lunar astronaut training ground (Neil Armstrong, Buzz Aldrin). Barren basaltic desert devoid of vegetation replicates lunar mare tephra and rough lava flows.",
+      "breakdown_limits": "Sub-polar oceanic rainfall, subaerial wind erosion, and high surface permeability.",
+      "process_twin": "Caldera collapse, explosive basaltic tephra fallout, and fissure eruption pahoehoe basalt crusting.",
+      "worldview_layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "solar_flux_wm2": 1020.0,
+      "optimal_window": "JUL \u2013 SEP (HIGHLAND ROAD ACCESS)",
+      "seasonal_fidelity": [
+        42,
+        45,
+        52,
+        60,
+        72,
+        88,
+        97,
+        98,
+        86,
+        64,
+        48,
+        40
+      ],
+      "peak_lst_c": "+12\u00b0C",
+      "ndvi": "0.03",
+      "rainfall_mm": "22 mm",
+      "seasonal_process_note": "Highland tracks thaw; barren basaltic sand sheets exposed under continuous daylight.",
+      "worldview_url": "https://worldview.earthdata.nasa.gov/?v=-17.2,64.8,-16.2,65.3",
+      "terramechanics": {
+        "kc_kpa": 2.2,
+        "kphi_kpa": 920.0,
+        "n_exponent": 1.05
+      }
+    },
+    {
+      "id": "svalbard_spitsbergen",
+      "name": "Svalbard Bokfjorden & Sverrefjell Volcanic Complex",
+      "region": "Spitsbergen, Svalbard Archipelago, Norway",
+      "continent": "Europe",
+      "coordinates": "79.430\u00b0 N, 13.350\u00b0 E",
+      "bbox_scale": "2.0 km \u00d7 2.0 km Arctic Sub-Zero Basalt Complex",
+      "unrecognized_gem": true,
+      "agency_datasets_used": [
+        "ESA Sentinel-1 Arctic Monitoring",
+        "NASA MODIS Cryosphere LST",
+        "CSA RCM High-Latitude SAR"
+      ],
+      "vector": {
+        "geology_mineralogy": 94,
+        "topography_roughness": 88,
+        "thermal_illumination": 92,
+        "water_ice_isru": 95,
+        "aeolian_dynamic_processes": 68,
+        "astrobiology_extremophiles": 92,
+        "subsurface_lava_tubes": 25,
+        "operations_mobility": 86
+      },
+      "metrics": {
+        "dominant_rock": "Mantle Xenolith Basalt with Hydrothermal Carbonate Globules (ALH84001 Twin)",
+        "mean_slope_deg": 14.2,
+        "sar_sigma0_db": -12.6,
+        "temp_range_c": "-32\u00b0C to +6\u00b0C"
+      },
+      "strong_analogy": "Host of NASA/ESA Arctic Mars Analog Svalbard Expeditions (AMASE). Contains the only terrestrial carbonate globules identical to those found in Martian meteorite ALH84001.",
+      "breakdown_limits": "Extreme polar bear hazards, maritime fog, and 4-month polar night.",
+      "process_twin": "Sub-glacial volcanism, mantle xenolith entrainment, and cryogenic hydrothermal carbonate crystallization.",
+      "worldview_layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "solar_flux_wm2": 940.0,
+      "optimal_window": "JUL \u2013 AUG (ARCTIC EXPEDITION WINDOW)",
+      "seasonal_fidelity": [
+        55,
+        58,
+        65,
+        74,
+        85,
+        94,
+        98,
+        97,
+        80,
+        68,
+        58,
+        52
+      ],
+      "peak_lst_c": "+5\u00b0C",
+      "ndvi": "0.02",
+      "rainfall_mm": "8 mm",
+      "seasonal_process_note": "Pack ice retreats; pristine permafrost basalt talus slopes accessible for biosignature drill testing.",
+      "worldview_url": "https://worldview.earthdata.nasa.gov/?v=12.5,79.1,14.2,79.7",
+      "terramechanics": {
+        "kc_kpa": 4.8,
+        "kphi_kpa": 1700.0,
+        "n_exponent": 1.15
+      }
+    },
+    {
+      "id": "hawaii_mauna_loa",
+      "name": "Mauna Loa HI-SEAS Lunar/Mars Habitat & Volcanic Ridge",
+      "region": "Hawaii Volcanic Saddle, Hawaii, USA",
+      "continent": "North America",
+      "coordinates": "19.533\u00b0 N, 155.578\u00b0 W",
+      "bbox_scale": "1.5 km \u00d7 1.5 km High-Altitude Basaltic Regolith Field",
+      "unrecognized_gem": false,
+      "agency_datasets_used": [
+        "NASA Terra ASTER Global DEM",
+        "USGS Hawaiian Volcano Observatory InSAR",
+        "Sentinel-2 True Color"
+      ],
+      "vector": {
+        "geology_mineralogy": 91,
+        "topography_roughness": 82,
+        "thermal_illumination": 75,
+        "water_ice_isru": 18,
+        "aeolian_dynamic_processes": 58,
+        "astrobiology_extremophiles": 45,
+        "subsurface_lava_tubes": 92,
+        "operations_mobility": 87
+      },
+      "metrics": {
+        "dominant_rock": "Pahoehoe & Aa Basaltic Lava with Intact Feeder Tubes",
+        "mean_slope_deg": 9.8,
+        "sar_sigma0_db": -8.9,
+        "temp_range_c": "+2\u00b0C to +22\u00b0C (2,500m)"
+      },
+      "strong_analogy": "NASA-funded HI-SEAS habitat host for long-duration crew analog isolation missions. Features unweathered basaltic tephra and accessible volcanic tubes matching lunar maria.",
+      "breakdown_limits": "High tropical atmospheric moisture (inversion layer breaks) and active volcanic gas plumes.",
+      "process_twin": "Effusive basaltic shield volcano lava layering and subterranean tube crystallization.",
+      "worldview_layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "solar_flux_wm2": 1090.0,
+      "optimal_window": "MAY \u2013 OCT (DRY PACIFIC TRADES)",
+      "seasonal_fidelity": [
+        84,
+        85,
+        87,
+        90,
+        95,
+        97,
+        98,
+        96,
+        95,
+        92,
+        88,
+        85
+      ],
+      "peak_lst_c": "+24\u00b0C",
+      "ndvi": "0.05",
+      "rainfall_mm": "12 mm",
+      "seasonal_process_note": "High solar insolation above cloud inversion layer; optimal for human-in-the-loop EVA simulations.",
+      "worldview_url": "https://worldview.earthdata.nasa.gov/?v=-155.7,19.4,-155.4,19.7",
+      "terramechanics": {
+        "kc_kpa": 3.0,
+        "kphi_kpa": 1050.0,
+        "n_exponent": 1.1
+      }
+    }
+  ]
+}
